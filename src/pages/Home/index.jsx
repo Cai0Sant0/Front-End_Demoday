@@ -124,7 +124,7 @@ function Home() {
           bene02={"Lensify: Ilimitado"}
           bene03={"Jogos liberados"}
           bene04={"Ícones exclusivos"}
-          caminhoBtn={"/"}
+          caminhoBtn={"/pagamento"}
           txtBtn={"Assinar agora"}
           CorfundoCartao={"#FFB800"}
           CorfundoCartao02={"#ffb80059"}

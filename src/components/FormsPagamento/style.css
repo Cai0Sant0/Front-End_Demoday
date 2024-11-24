@@ -1,0 +1,153 @@
+#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    overflow: hidden;
+    width: 250px;
+    height: 520px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+    transform: translate(-50%,-50%);
+}
+
+#login > #imagem{
+    display: block;
+    background: #ffffff url(../../assets/images/logo/logo.svg) no-repeat;
+    height: 250px;
+    background-size:contain;
+    background-position: center;
+}
+#form{
+    display: block;
+    /* padding: 10px; */
+    background-color: burlywood;
+    padding: 25px;
+    height: 100%;
+}
+#form > h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#form > p{
+    font-size: 0.8em;
+}
+form >.campo{
+    display: block;
+    width: 100%;
+    height: 40px;
+    background-color: #d14e0dc6;
+    border-radius: 8px;
+    margin: 5px 0px;
+    border: 1px solid #d14e0dc6;
+}
+.campo>label>span{
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+.campo > input{
+    background-color: #03151F;
+    font-size: 0.9em;
+    width: calc(100% - 44.5px);
+    height: 100%;
+    border-radius: 8px;
+    padding: 3px;
+    transform: translateY(-13px);
+}
+.campo>input:focus-within{
+    background-color: white;
+}
+
+form>input[type=submit]{
+    display: block;
+    font-size: 0.9em;
+    width: 100%;
+    height: 30px;
+    background-color: #03151F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+form>input[type=submit]:hover{
+    background-color: #174a66;
+    color:black ;
+
+}
+form>.botao{
+    display: block;
+    text-align: center;
+    font-size: 0.9em;
+    width: 100%;
+    height: 40px;
+    background-color: #060d10;
+    margin-top: 3px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+}
+form>.botao:hover{
+    background-color: #022a4089;
+    color: black;
+}
+form>.botao > span{
+    font-size: 0.9em;
+    padding-top: 10px;
+}
+
+@media (min-width:768px) and (max-width:1014px) {
+    
+   #login{
+      width: 85vw;
+      height: 300px;
+   }
+   #login > #imagem{
+    float: left;
+    background-position: center bottom;
+    width: 30%;
+    height: 72%;
+   }
+   #login > #form{
+    float: right;
+    width: 70%;
+   }
+   #form > h1{
+    text-align: center;
+    font-size: 1.5em;
+   }
+   #form > p{
+    font-size: 1.2em;
+    margin-bottom: 15px;
+   }
+
+}
+@media (min-width:1014px) {
+
+    #login{
+        width: 990px;
+        height: 400px;
+    }
+    #login > #imagem{
+        float: right;
+        background-position: center center;
+        width: 45%;
+        height: 100%;
+    }
+    #login > #form{
+        float: left;
+        width: 50%;
+    }
+    #form > h1{
+        text-align: center;
+        font-size: 1.8em;
+    }
+    #form > p{
+        font-size: 1.3em;
+        margin: 15px 0px;
+    }
+}

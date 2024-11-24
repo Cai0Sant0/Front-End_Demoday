@@ -12,6 +12,7 @@ import EscolhaPerfil from '../pages/EscolhaPerfil';
 import NossaEquipe from '../pages/NossaEquipe';
 import TesteIa from '../pages/TesteIa';
 import Parceiros from '../pages/Parceiros';
+import Pagamento from '../pages/PagamentoPlano';
 
 function AppRoutes(){
     return(
@@ -33,6 +34,7 @@ function AppRoutes(){
             <Route path='/jogos' element = {<Jogos/>}/>
             <Route path='/blog' element = {<Blog/>}/>
 
+            <Route path='/pagamento' element = {<Pagamento/>}/>
 
         </Switch>
     )
