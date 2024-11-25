@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4em;
+    width: 65%;
+    height: 25em;
+    background-color: #2B616D;
+    border-radius: 0px 60px 60px 0px;
+}
+
+.btnSidebar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #59D1F6;
+    border-radius: 50%;
+    width: 73%;
+    height: 4em;
+    margin-left: 9px;
+}

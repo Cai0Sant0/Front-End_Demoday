@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.conteudoPrincipal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 99vw;
+  height: 109vh;
+  background: url(../../assets/images/imagemPerfilUsuario/fundoOculos.png)
+    no-repeat center;
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
+}
+
+.seccaoSideBar {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  height: 100%;
+  width: 10%;
+}
+
+.seccaoConteudo {
+  height: 100%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.fotoNomeUsu {
+  display: flex;
+  align-items: center;
+  gap: 4em;
+  width: 45%;
+  height: 10em;
+  background-color: white;
+  border: 1px solid #2b616d;
+  padding: 20px;
+  border-radius: 40px;
+}
+
+.fotoAtualUsu {
+  width: 8em;
+  height: 8em;
+  border-radius: 50%;
+  background-color: black;
+  background: url(../../assets/images/imagensEscolhaPerfil/foto3.png) center no-repeat;
+  background-size: contain;
+}
+
+.conatinerFotosPerfil {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 38em;
+  border-radius: 40px;
+  border: 1px solid #2b616d;
+  background-color: #59d1f6;
+  align-items: center;
+  gap: 4em;
+  justify-content: center;
+  padding: 20px;
+}
+
+.tituloFotosPerfil{
+    color: white;
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+.linhaFotoPerfil {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  height: 6em;
+}
+
+.fotosPerfil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 10em;
+}
