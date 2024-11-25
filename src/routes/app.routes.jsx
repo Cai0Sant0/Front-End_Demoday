@@ -14,6 +14,7 @@ import TesteIa from '../pages/TesteIa';
 import Parceiros from '../pages/Parceiros';
 import Pagamento from '../pages/PagamentoPlano';
 import TelaUsuarioFotoPerfil from '../pages/FotoPerfilUsuario';
+import ConfigUsuario from '../pages/ConfiguracaoUsuario'
 
 function AppRoutes(){
     return(
@@ -25,6 +26,7 @@ function AppRoutes(){
             <Route path='/cadastroKid' element = {<CadastroKid/>}/>
             <Route path='/login' element = {<Login/>}/>
             <Route path='/fotoUsuario' element = {<TelaUsuarioFotoPerfil/>}/>
+            <Route path='/configuracaoUsuario' element = {<ConfigUsuario/>}/>
         
             <Route path='/nossaEquipe' element = {<NossaEquipe/>}/>
             <Route path='/escolhaPerfil' element = {<EscolhaPerfil/>}/>
