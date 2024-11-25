@@ -65,3 +65,41 @@
   color: rgba(0, 0, 0, 0.568);
   font-weight: bold;
 }
+
+@media (max-width:750px){
+
+  .seccaoSideBar{
+    width: 20%;
+  }
+
+  .seccaoConteudo{
+    width: 80%;
+  }
+  
+  .containerInfoUsu{
+    width: 49%;
+  }
+}
+
+@media (max-width:550px){
+  .conteudoPrincipal{
+    width: 96vw;
+    height: 72em;
+  }
+
+  .seccaoSideBar{
+    width: 27%;
+  }
+
+  .seccaoConteudo{
+    flex-direction: column;
+  }
+
+  .containerInfoUsu{
+    width: 92%;
+    margin-bottom: 30px;
+    gap: 15px;
+  }
+
+
+}

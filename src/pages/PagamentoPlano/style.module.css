@@ -18,3 +18,9 @@
       height: 120em;
    }
 }
+
+   @media (min-width:1900px){
+      .seccaoForms{
+         height: 67em;
+      }
+   }

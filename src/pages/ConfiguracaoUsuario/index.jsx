@@ -11,7 +11,6 @@ function ConfigUsuario() {
       </section>
       <section className={estilo.seccaoConteudo}>
         <div className={estilo.containerInfoUsu}>
-
           <h2>Pessoas Registradas</h2>
 
           <label htmlFor="nomeResponsavel">Nome do Responsável</label>
@@ -20,6 +19,7 @@ function ConfigUsuario() {
             name="nomRespo"
             id="nomeResponsavel"
             placeholder="Nome do responsável"
+            autoComplete="off"
           />
           <label htmlFor="nomePrimeiraCrianca">Nome da criança</label>
           <input
@@ -27,6 +27,7 @@ function ConfigUsuario() {
             name="crianca01"
             id="nomePrimeiraCrianca"
             placeholder="Nome da 1° criança"
+            autoComplete="off"
           />
           <label htmlFor="nomeSegundaCrianca">Nome da criança</label>
           <input
@@ -34,6 +35,7 @@ function ConfigUsuario() {
             name="crianca02"
             id="nomeSegundaCrianca"
             placeholder="Nome da 2° criança"
+            autoComplete="off"
           />
           <label htmlFor="nomeTerceiraCrianca">Nome do criança</label>
           <input
@@ -41,22 +43,40 @@ function ConfigUsuario() {
             name="crianca03"
             id="nomeTerceiraCrianca"
             placeholder="Nome da 3° criança"
+            autoComplete="off"
           />
 
           {<ModalEditPessoas />}
         </div>
         <div className={estilo.containerInfoUsu}>
-
           <h2>Informações do Responsável</h2>
 
           <label htmlFor="emailUsuario">Email Cadastrado</label>
-          <input type="email" name="emailUSu" id="emailUsuario" placeholder="Email Atual" />
+          <input
+            type="email"
+            name="emailUSu"
+            id="emailUsuario"
+            placeholder="Email Atual"
+            autoComplete="off"
+          />
 
           <label htmlFor="cpfUsuario">CPF Cadastrado</label>
-          <input type="number" name="cpfUsu" id="cpfUsuario" placeholder="CPF Atual" />
+          <input
+            type="number"
+            name="cpfUsu"
+            id="cpfUsuario"
+            placeholder="CPF Atual"
+            autoComplete="off"
+          />
 
           <label htmlFor="senhaAtualUsuario">Senha Atual</label>
-          <input type="password" name="senhaAtuUsu" id="senhaAtualUsuario" placeholder="Senha Atual" />
+          <input
+            type="password"
+            name="senhaAtuUsu"
+            id="senhaAtualUsuario"
+            placeholder="Senha Atual"
+            autoComplete="off"
+          />
 
           {<ModalEditInformacoes />}
         </div>
