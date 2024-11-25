@@ -23,17 +23,45 @@
 }
 
 .seccaoConteudo {
-    height: 100%;
-    width: 90%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-around;
+  height: 80%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.containerInfoUsu{
-    width: 75%;
-    height: 88%;
-    background-color: #0000006b;
-    border-radius: 40px;
+.containerInfoUsu {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  height: 90%;
+  background-color: #59d1f6;
+  border: 1px solid #2b616d;
+  color: #2b616d;
+  padding: 25px;
+  border-radius: 40px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.containerInfoUsu h2 {
+  text-align: center;
+}
+
+.containerInfoUsu label {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.containerInfoUsu input{
+  height: 2em;
+  text-align: center;
+  border-radius: 40px;
+  padding: 10px;
+  box-shadow: 7px -7px 0px 1px #00000078;
+}
+
+.containerInfoUsu input::placeholder{
+  color: rgba(0, 0, 0, 0.568);
+  font-weight: bold;
 }
