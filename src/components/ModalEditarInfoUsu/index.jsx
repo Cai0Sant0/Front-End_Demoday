@@ -11,17 +11,17 @@ function ModalEditInformacoes() {
 
   return (
     <>
-      <Button variant="primary" onClick={handleShow}>
+      <Button variant="primary" onClick={handleShow} className="BtnModalsPerfilUsu">
         Editar Informações
       </Button>
 
-      <Modal show={show} onHide={handleClose}>
+      <Modal show={show} onHide={handleClose} className="modalPerfilUsu">
         <Modal.Header closeButton>
           <Modal.Title>Edição de Informações</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <Form>
-            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+            <Form.Group className="mb-3" controlId="inputEmail">
               <Form.Label>Mudar Email:</Form.Label>
               <Form.Control
                 type="email"
@@ -32,7 +32,7 @@ function ModalEditInformacoes() {
             </Form.Group>
             <Form.Group
               className="mb-3"
-              controlId="exampleForm.ControlTextarea1"
+              controlId="inputNumCPF"
             >
               <Form.Label>Mudar CPF:</Form.Label>
               <Form.Control
@@ -44,7 +44,7 @@ function ModalEditInformacoes() {
             </Form.Group>
             <Form.Group
               className="mb-3"
-              controlId="exampleForm.ControlTextarea1"
+              controlId="inputSenha"
             >
               <Form.Label>Nova senha:</Form.Label>
               <Form.Control
@@ -57,10 +57,10 @@ function ModalEditInformacoes() {
           </Form>
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
+          <Button variant="danger" onClick={handleClose}  className="btnModalPerfilUsu">
             Cancelar
           </Button>
-          <Button variant="primary" onClick={handleClose}>
+          <Button variant="primary" onClick={handleClose}  className="btnModalPerfilUsu">
             Salvar
           </Button>
         </Modal.Footer>
