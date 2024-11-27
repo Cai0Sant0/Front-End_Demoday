@@ -1,7 +1,7 @@
 import './style.css'
 import NavbarPadrao from '../../components/navbar'
 import FooterPadrao from '../../components/footer'
-import LerMais from '../../components/btnLerMais/BtnLerMais'
+import LerMais from '../../components/btnLerMais/btnLerMais'
 import LerMais2 from '../../components/btnLerMais/btnLerMais2'
 import LerMais3 from '../../components/btnLerMais/btnLerMais3'
 import LerMais4 from '../../components/btnLerMais/btnLerMais4'
