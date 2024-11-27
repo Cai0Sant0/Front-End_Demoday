@@ -75,8 +75,7 @@ const AnalisadorFacial = () => {
       let DataErrado = data.candidates[0].content.parts[0].text;
 
       if (DataErrado.includes("json")) {
-        DataErrado = DataErrado.slice(8, 42);
-
+        DataErrado = DataErrado.slice(8, 41);
         const result = JSON.parse(DataErrado);
         exibirResultados(result);
       } else {
