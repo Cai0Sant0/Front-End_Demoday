@@ -10,7 +10,7 @@ import iconePerfil07 from "../../assets/images/imagemPerfilUsuario/icone07Perfil
 import iconePerfil08 from "../../assets/images/imagemPerfilUsuario/icone08Perfil.png";
 import iconePerfil09 from "../../assets/images/imagemPerfilUsuario/icone09Perfil.png";
 import iconePerfil10 from "../../assets/images/imagemPerfilUsuario/icone10Perfil.png";
-import iconePerfil11 from "../../assets/images/imagemPerfilUsuario/icone11Perfil.png";
+import iconePerfil11 from "../../assets/images/imagemPerfilUsuario/icone11perfil.png";
 import iconeCamera from "../../assets/images/imagemPerfilUsuario/iconeCamera.svg"
 
 function TelaUsuarioFotoPerfil() {
