@@ -9,10 +9,10 @@ import imgPrimeiroJogo from "../../assets/images/imagensHome/ImgJogo01.png";
 import imgSegundoJogo from "../../assets/images/imagensHome/ImgJogo02.png";
 import imgTerceiroJogo from "../../assets/images/imagensHome/ImgJogo03.jpg";
 
-import logoKenzo from "../../assets/images/logoParceiros/LogoKenzo.png";
-import logoNavgard from "../../assets/images/logoParceiros/LogoNavgard.png";
-import logoJovem from "../../assets/images/logoParceiros/LogoJovem.png";
-import logoSymbee from "../../assets/images/logoParceiros/LogoSymbee.png";
+import logoKenzo from "../../assets/images/logoParceiros/logoKenzo.png";
+import logoNavgard from "../../assets/images/logoParceiros/logoNavgard.png";
+import logoJovem from "../../assets/images/logoParceiros/logoJovem.png";
+import logoSymbee from "../../assets/images/logoParceiros/logoSymbee.png";
 
 import CarroselHome from "../../components/carroselHome/CarroselHome";
 import Libras from "../../components/VLibras";
