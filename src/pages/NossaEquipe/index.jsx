@@ -3,11 +3,14 @@ import CardEquipe from '../../components/CardEquipe/CardEquipe';
 import NavbarPadrao from '../../components/navbar';
 import FooterPadrao from '../../components/footer';
 import Libras from '../../components/VLibras';
+import Topo from "../../components/ComponenteEscrolaPraCima";
 
 
 function NossaEquipe(){
     return(
         <>
+
+          <Topo/>
 
           <NavbarPadrao/>
 

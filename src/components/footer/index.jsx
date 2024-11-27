@@ -9,14 +9,14 @@ function FooterPadrao() {
   return (
     <footer className="estiloFooter">
       <div className="imagemLogo">
-        <a href="/">
+        <Link to={"/"}>
           <img
             src={logoFooter}
             alt="logo do projeto de TeVejo"
             width="150"
             height="50"
           />
-        </a>
+        </Link>
       </div>
 
       <div className="textoFooter">

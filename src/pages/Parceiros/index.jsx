@@ -5,10 +5,14 @@ import logoGithub from "../../assets/images/iconesRedesSociais/github.svg";
 import logoLinkedin from "../../assets/images/iconesRedesSociais/linkedin.svg";
 import FooterPadrao from "../../components/footer";
 import Libras from "../../components/VLibras";
+import Topo from "../../components/ComponenteEscrolaPraCima";
 
 function Parceiros() {
   return (
     <>
+
+      <Topo/>
+
       <h1 className="tituloParceiros">Parcerias Te Vejo</h1>
 
       <Libras/>

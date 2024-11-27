@@ -3,10 +3,14 @@ import NavbarPadrao from '../../components/navbar'
 import FooterPadrao from '../../components/footer'
 import { Link } from 'react-router-dom'
 import Libras from '../../components/VLibras'
+import Topo from "../../components/ComponenteEscrolaPraCima"
 
 function Jogos(){
     return(
         <>
+
+        <Topo/>
+
         <NavbarPadrao />
 
         <Libras/>

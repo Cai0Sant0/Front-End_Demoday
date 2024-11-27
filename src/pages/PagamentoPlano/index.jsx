@@ -1,13 +1,16 @@
 import FooterPadrao from '../../components/footer'
 import FormularioPagamento from '../../components/FormsPagamento'
 import estilo from './style.module.css' 
-import Libras from "../../components/VLibras";
+import Libras from "../../components/VLibras"
+import Topo from "../../components/ComponenteEscrolaPraCima"
 
 
 function Pagamento(){
     return (
         <>
        
+       <Topo/>
+
        <Libras/>
 
         <section className={estilo.seccaoForms}>

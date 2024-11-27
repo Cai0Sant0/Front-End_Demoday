@@ -4,6 +4,8 @@ import FooterPadrao from "../../components/footer";
 import CardJogo from "../../components/cardJogos/CardJogo";
 import CardPlano from "../../components/cardPlanos/CardPlano";
 import { Link } from "react-router-dom";
+import Topo from "../../components/ComponenteEscrolaPraCima";
+
 
 import imgPrimeiroJogo from "../../assets/images/imagensHome/ImgJogo01.png";
 import imgSegundoJogo from "../../assets/images/imagensHome/ImgJogo02.png";
@@ -18,8 +20,10 @@ import CarroselHome from "../../components/carroselHome/CarroselHome";
 import Libras from "../../components/VLibras";
 
 function Home() {
+
   return (
     <>
+      <Topo/>
       <NavbarPadrao />
 
       <CarroselHome />
@@ -135,35 +139,35 @@ function Home() {
 
       <section className="sliderParceiros">
         <div className="list">
-          <a href="/parceiros">
+          <Link to={"/parceiros"}>
             <div className="itemParceiro slide01Parceiro">
               <img src={logoKenzo} alt="logo óticas Kenzo" />
             </div>
-          </a>
+          </Link>
 
-          <a href="/parceiros">
+          <Link to={"/parceiros"}>
             <div className="itemParceiro slide02Parceiro">
               <img src={logoJovem} alt="logo óticas Jovem" />
             </div>
-          </a>
+          </Link>
 
-          <a href="/parceiros">
+          <Link to={"/parceiros"}>
             <div className="itemParceiro slide03Parceiro">
               <img
                 src={logoNavgard}
                 alt="logo trabalho Navgard demoday de Recife"
               />
             </div>
-          </a>
+          </Link>
 
-          <a href="/parceiros">
+          <Link to={"/parceiros"}>
             <div className="itemParceiro slide04Parceiro">
               <img
                 src={logoSymbee}
                 alt="logo trabalho Symbee demoday de Equipe 04"
               />
             </div>
-          </a>
+          </Link>
         </div>
       </section>
 
