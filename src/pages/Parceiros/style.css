@@ -56,27 +56,42 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  height: 25em;
-  background: linear-gradient(137deg, #59d1f6 0%, #47a6c3 50%, #347a90 100%);
+  height: 30em;
+  background: url(../../assets/images/imagemPagParceiros/imgNavguard.png)
+    no-repeat bottom;
+  background-size: cover;
   margin: 3em 0em 3em 0em;
   padding: 1em;
 }
 
 .conteudoParceiro01,
 .conteudoParceiro03 {
+  display: flex;
+  justify-content: center;
   width: 100%;
-  color: white;
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: 1.5em;
   font-weight: 600;
 }
 
-.conteudoParceiro01 p,
-.conteudoParceiro03 p {
-  text-align: left;
+.conteudoParceiro01 p {
   width: 28em;
-  font-size: 21px;
+  font-size: 1.2em;
+  background-color: #ffffff85;
+  backdrop-filter: blur(10px);
+  border-radius: 30px;
+  padding: 6px;
+}
+
+.conteudoParceiro03 p {
+  text-align: center;
+  width: 27em;
+  font-size: 1.2em;
+  background-color: #fff;
+  color: #b12e2e;
+  border-radius: 30px;
+  padding: 6px;
 }
 
 .seccaoParceiro02 {
@@ -118,8 +133,10 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  height: 25em;
-  background: linear-gradient(150deg, #b12e2e 0%, #300000 100%);
+  height: 30em;
+  background: url(../../assets/images/imagemPagParceiros/fundoOticasJovem.png),
+    linear-gradient(150deg, #b12e2e 0%, #300000 100%);
+  background-size: cover;
   margin: 3em 0em 3em 0em;
   padding: 1em;
 }
@@ -162,6 +179,14 @@
   display: flex;
   justify-content: space-evenly;
   width: 10em;
+}
+
+.redesSociasParceiroDireita {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1em;
+  margin-top: 15px;
 }
 
 @media (max-width: 750px) {
@@ -208,11 +233,17 @@
 }
 
 @media (max-width: 500px) {
-  .conteudoParceiro01 p,
-  .conteudoParceiro03 p {
-    text-align: left;
+  .conteudoParceiro01 p {
+    text-align: center;
     width: 18em;
     font-size: 21px;
+    padding: 10px;
+  }
+  .conteudoParceiro03 p {
+    text-align: center;
+    width: 19em;
+    font-size: 21px;
+    padding: 10px;
   }
 
   .tituloParceiros {
@@ -234,18 +265,18 @@
   .conteudoParceiro03,
   .conteudoParceiro04 {
     font-size: 1em;
-    padding: 8px;
+    padding: 10px;
   }
 
   .conteudoParceiro02 {
-    height: 12em;
-    width: 28em;
+    height: 13em;
+    width: 23em;
   }
 
   .conteudoParceiro04 {
-    height: 14em;
-    width: 28em;
-  }
+    height: 17em;
+    width: 23em;
+}
 
   .logoParceiro01,
   .logoParceiro02,

@@ -57,7 +57,7 @@ function Home() {
         Jogos que ajudam a ir além da diversão
       </h2>
 
-      <p className="txthomeJogo">Passe o mouse por cima para saber mais!</p>
+      <p className="txthomeJogo">Passe o mouse por cima ou clique para saber mais!</p>
 
       <section className="seccaoJogosHome">
         <div className="PrimeiroJogoSeccaoHome">

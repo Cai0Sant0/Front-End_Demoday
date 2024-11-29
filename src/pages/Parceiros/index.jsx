@@ -13,7 +13,7 @@ function Parceiros() {
 
       <Topo/>
 
-      <h1 className="tituloParceiros">Parcerias Te Vejo</h1>
+      <h1 className="tituloParceiros">Nossos Parceiros</h1>
 
       <Libras/>
 
@@ -22,13 +22,11 @@ function Parceiros() {
 
         <div className="conteudoParceiro01">
           <p className="paragrafoParceiro">
-            Naveguard é um projeto social desenvolvido por jovens estudantes do
-            Instituto Proa, formados pelo desafio DemoDay de Recife - PE.
-            Consistem em...
+          Naveguard é um projeto social desenvolvido por jovens estudantes do Instituto Proa, formados pelo desafio DemoDay de Recife - PE. Consistem em ensinar e auiliar crianças perante a segurança na internet de maneira lúdica e interativa.
           </p>
         </div>
 
-        <div className="redesSociasParceiro">
+        <div className="redesSociasParceiroDireita">
           <a href="#">
             <img
               src={logoInstagram}
@@ -98,10 +96,10 @@ function Parceiros() {
         <div className="logoParceiro03"></div>
 
         <div className="conteudoParceiro03">
-        <p className="paragrafoParceiro">Óticas Kenzo hoje é uma das marcas mais desejadas. Contribuiram com o projeto “Te Vejo” disponibilizando seu catálogo de armações para uso exclusivo em nossa Lensify, gerando resultados inéditos que agradam cada vez mais nossos usuários.</p>
+        <p className="paragrafoParceiro">Ótica Jovem em parceria com a Te Vejo, age de maneira abrangente. Também disponibilizando diversos modelos de óculos para uso concreto em nossa Lensify, transformando assim, um catálogo mais abrangente e inovador aos nossos usuários.</p>
         </div>
 
-        <div className="redesSociasParceiro">
+        <div className="redesSociasParceiroDireita">
           <a href="#">
             <img
               src={logoInstagram}
