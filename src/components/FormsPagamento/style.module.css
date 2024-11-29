@@ -104,6 +104,7 @@ form .btn:hover {
   }
 
   .container form {
-    width: 400px;
+    width: 365px;
+    margin-right: 10px;
   }
 }
