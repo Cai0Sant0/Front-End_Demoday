@@ -98,12 +98,13 @@
     text-align: center;
     color: #2B616D;
     font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
 }
 
 .txthomeJogo{
     text-align: center;
     margin: 1em 0em 1em 0em;
-    font-size: 21px;
+    font-size: 25px;
     color: #2B616D;
     font-family: 'Montserrat', sans-serif;
 }
@@ -320,7 +321,7 @@
     }
 
     .linkParaOsJogosHome{
-        width: 26em;
+        width: 23em;
     }
 }
 
@@ -337,6 +338,12 @@
         align-items: center;
         height: 800px;
         gap: 5em;
+    }
+
+    .linkParaOsJogosHome{
+        width: 79%;
+        height: 4em;
+        padding: 9px;
     }
 }
 

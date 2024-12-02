@@ -115,9 +115,9 @@
     transition: 0.5s ease-in-out;
 }
 
-@media (min-width:1920px){
+@media (min-width:1900px){
     .central-large {
-        width: 67%;
+        width: 65%;
         margin-left: calc(60% - 40%);
     }
 }
@@ -128,7 +128,7 @@
     }
 }
 
-@media (max-width:1000px){
+@media (max-width:1350px){
     .carousel-item.active{
         justify-content: left;
     }
