@@ -29,6 +29,7 @@ function Home() {
       <CarroselHome />
 
       <Libras />
+
       <section className="segundaSeccaoHome">
         <div className="imgsegundaSeccaoHome">
           <div className="txtSegundaSeccaoHome">

@@ -70,7 +70,7 @@
 }
 
 .txtPrimeiraSeccaoIA01{
-    width: 367px;
+    width: 310px;
     height: 111px;
     margin-left: 2em;
 }
@@ -252,26 +252,19 @@
     .imgPrimeiraSeccaoIA{
         background-image: none;
         background-color: #006f91;
-        width: 23em;
+        width: 20em;
     }
 
     .imgSegundaSeccaoIA{
         background-image: none;
         background-color: #efa5e7 ;
-        width: 23em;
-    }
-
-    .txtPrimeiraSeccaoIA {
-        width: 21em;
-        height: 2em;
-        margin-left: 4em;
-        margin-top: 2em;
+        width: 20em;
     }
 
     .txtPrimeiraSeccaoIA{
-        width: 21em;
+        width: 18em;
         height: 2em;
-        margin-left: 4em;
+        margin-left: 2em;
         margin-top: 2em;
     }
 
@@ -288,15 +281,16 @@
 
     .Titulo02IA{
         font-size: 3em;
-        margin-right: 2em;
+        margin-right: 1em;
     }
 
     .linkIaTelaIa {
-        width: 20.5em;
+        width: 16.5em;
     }
 
     .linkFiltroTelaIA{
-        width: 20.5em;
+        width: 16.5em;
+        margin-left: 3em;
     }
 
     .textoMenorIA1{
@@ -306,6 +300,8 @@
     .textoMenorIA2{
         color: white;
         text-align: left;
+        margin-left: 2em;
+        margin-right: -8px;
     }
 
 }
