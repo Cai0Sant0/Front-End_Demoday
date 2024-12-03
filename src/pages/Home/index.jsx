@@ -123,7 +123,7 @@ function Home() {
         />
 
         <CardPlano
-          ValorPlano={"R$ 29,00/Mês"}
+          ValorPlano={"R$ 29,90/Mês"}
           TipoPlano={"Plus"}
           bene01={"Sem anúncios"}
           bene02={"Lensify: Ilimitado"}

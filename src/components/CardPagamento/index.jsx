@@ -6,7 +6,7 @@ const CardPagamento = () => {
         <div className="pricing-block-content">
           <p className="pricing-plan">Plano Premium</p>
           <div className="price-value" data-currency="R$ BRL" data-currency-simple="BRL">
-            <p className="price-number">R$<span className="price-integer">29,00</span></p>
+            <p className="price-number">R$<span className="price-integer">29,90</span></p>
             <div id="priceDiscountCent">Mensal</div>
           </div>
           <div className="pricing-note">Benefícios ao assinar</div>

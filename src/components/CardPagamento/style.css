@@ -4,7 +4,7 @@
 
 .cardPagamento {
     width: 100%;
-    background: #63bcd7de;
+    background: #ffb800b8;
     padding: 1rem;
     border-radius: 1rem;
     border: 0.5vmin solid #05060f;
@@ -35,7 +35,6 @@
     line-height: 1.25;
     font-weight: 700;
     text-align: center;
-    background-color: white;
     padding: 12px;
     border-radius: 10px;
   }
