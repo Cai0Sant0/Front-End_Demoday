@@ -3,7 +3,6 @@ import NavbarPadrao from '../../components/navbar'
 import FooterPadrao from '../../components/footer'
 import ImgOculos from '../../assets/images/imagemIA/imgOculosIa2.png'
 import { Link } from 'react-router-dom'
-import Libras from '../../components/VLibras'
 import Topo from "../../components/ComponenteEscrolaPraCima"
 
 function IA(){
@@ -14,7 +13,6 @@ function IA(){
 
         <NavbarPadrao/>
 
-        <Libras/>
 
         <section className='primeiraSeccaoIA'>
             <div className="imgPrimeiraSeccaoIA">

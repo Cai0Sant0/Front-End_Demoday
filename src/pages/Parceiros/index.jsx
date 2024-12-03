@@ -4,7 +4,6 @@ import logoFacebook from "../../assets/images/iconesRedesSociais/facebook.svg";
 import logoGithub from "../../assets/images/iconesRedesSociais/github.svg";
 import logoLinkedin from "../../assets/images/iconesRedesSociais/linkedin.svg";
 import FooterPadrao from "../../components/footer";
-import Libras from "../../components/VLibras";
 import Topo from "../../components/ComponenteEscrolaPraCima";
 
 function Parceiros() {
@@ -14,8 +13,6 @@ function Parceiros() {
       <Topo/>
 
       <h1 className="tituloParceiros">Nossos Parceiros</h1>
-
-      <Libras/>
 
       <section className="seccaoParceiro01">
         <div className="logoParceiro01"></div>

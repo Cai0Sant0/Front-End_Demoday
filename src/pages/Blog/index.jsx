@@ -14,7 +14,6 @@ import imgBlog03 from "../../assets/images/imagemBlog/imgblog03.svg";
 import imgBlog04 from "../../assets/images/imagemBlog/imgblog04.svg";
 import imgBlog05 from "../../assets/images/imagemBlog/imgblog05.svg";
 import imgBlog06 from "../../assets/images/imagemBlog/imgblog06.svg";
-import Libras from "../../components/VLibras";
 import Topo from "../../components/ComponenteEscrolaPraCima";
 
 function Blog() {
@@ -22,7 +21,7 @@ function Blog() {
     <>
       <Topo />
       <NavbarPadrao />
-      <Libras />
+      
       <div className="control">
         <br />
 

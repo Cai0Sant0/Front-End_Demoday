@@ -1,12 +1,10 @@
 import './style.css'
 import fundoLogin from '../../assets/images/imagemLogin/fundoLogin.jpg';
 import {Link} from 'react-router-dom';
-import Libras from "../../components/VLibras";
 
 function Login() {
     return (
         <>
-        <Libras/>
             <div className='Corpo'>
                 <div className="zona">
                     <img className="imgFundoLogin" src={fundoLogin} alt="" />

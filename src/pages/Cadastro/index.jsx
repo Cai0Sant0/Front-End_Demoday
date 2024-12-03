@@ -2,12 +2,10 @@ import './style.css'
 import fundofamily from '../../assets/images/imagemCadastro/fundofamily.png'
 import logo from '../../assets/images/logo/logoTelaCadastro.png'
 import { Link } from 'react-router-dom';
-import Libras from '../../components/VLibras';
 
 function Cadastro() {
     return (
         <>
-        <Libras/>
             <div className="fundoGeralTelaCadastro">
 
                 <div className="fundoCadastro">

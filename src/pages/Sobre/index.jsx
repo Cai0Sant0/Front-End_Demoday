@@ -6,7 +6,6 @@ import fotoMenino from "../../assets/images/imagensSobreNos/fotoMenino.svg";
 import imgNossoTeam from "../../assets/images/imagensSobreNos/imgNossoTeam.svg";
 import elementosSobreNos from "../../assets/images/imagensSobreNos/elementosSobreNos.svg";
 import imgProa from "../../assets/images/imagensSobreNos/imgProa.svg";
-import Libras from "../../components/VLibras";
 import Topo from "../../components/ComponenteEscrolaPraCima";
 function Sobre() {
   return (
@@ -14,7 +13,6 @@ function Sobre() {
       <Topo />
       <NavbarPadrao />
 
-      <Libras />
 
       <div className="controlDeVideo">
         <div className="chamadaControl">

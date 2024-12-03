@@ -17,7 +17,7 @@ import logoJovem from "../../assets/images/logoParceiros/logoJovem.png";
 import logoSymbee from "../../assets/images/logoParceiros/logoSymbee.png";
 
 import CarroselHome from "../../components/carroselHome/CarroselHome";
-import Libras from "../../components/VLibras";
+// import Libras from "../../components/VLibras";
 
 function Home() {
 
@@ -28,7 +28,7 @@ function Home() {
 
       <CarroselHome />
 
-      <Libras />
+      {/* <Libras /> */}
 
       <section className="segundaSeccaoHome">
         <div className="imgsegundaSeccaoHome">
