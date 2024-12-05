@@ -40,15 +40,15 @@ function LerMais(props) {
         <p>Os pais devem estar atentos a certos comportamentos que podem indicar problemas de visão nas crianças. Sinais como:</p>
         <br />
         <ul>
-            <li>dificuldade para ler</li>
-            <li>confundir letras ou palavras</li>
-            <li>fechar um olho ao olhar para objetos</li>
-            <li>piscar excessivamente</li>
+            <li>Dificuldade para ler</li>
+            <li>Confundir letras ou palavras</li>
+            <li>Fechar um olho ao olhar para objetos</li>
+            <li>Piscar excessivamente</li>
         </ul>
         <br />
         <p>Além disso, fique atento a queixas de dores de cabeça frequentes ou cansaço visual após atividades que exigem foco. Se seu filho evitar atividades que envolvem leitura ou trabalhos manuais, isso também pode ser um sinal de alerta. Uma consulta ao oftalmologista é importante para garantir que qualquer problema seja identificado e tratado o mais rápido possível. Lembre-se: um diagnóstico precoce pode fazer toda a diferença na correção de problemas visuais.</p>
         
-          <Button color="secondary" onClick={toggle}>
+          <Button color="danger" onClick={toggle} className='btnFecharModalBlog'>
             Fechar
           </Button>
 

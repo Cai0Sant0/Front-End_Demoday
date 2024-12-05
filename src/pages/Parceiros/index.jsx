@@ -21,7 +21,7 @@ function Parceiros() {
 
         <div className="conteudoParceiro01">
           <p className="paragrafoParceiro">
-          Naveguard é um projeto social desenvolvido por jovens estudantes do Instituto Proa, formados pelo desafio DemoDay de Recife - PE. Consistem em ensinar e auiliar crianças perante a segurança na internet de maneira lúdica e interativa.
+          Naveguard é um projeto social desenvolvido por jovens estudantes do Instituto Proa, formados pelo desafio DemoDay de Recife - PE. Consistem em ensinar e auxiliar crianças perante a segurança na internet de maneira lúdica e interativa.
           </p>
         </div>
 

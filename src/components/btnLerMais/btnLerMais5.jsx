@@ -42,19 +42,19 @@ function LerMais5(props) {
         <p>A escolha da armação dos óculos pode ser uma tarefa divertida, mas é importante considerar alguns fatores para garantir conforto e estilo. Procure armações que sejam:</p>
         <br />
         <ul>
-            <li>leves</li>
-            <li>feitas de materiais resistentes</li>
-            <li>adequadas para a atividade diária das crianças</li>
+            <li>Leves</li>
+            <li>Feitas de materiais resistentes</li>
+            <li>Adequadas para a atividade diária das crianças</li>
         </ul>
         <p>O ajuste deve ser perfeito:</p>
         <br />
         <ul>
-            <li>não deve escorregar do nariz</li>
-            <li>não deve pressionar as têmporas</li>
+            <li>Não deve escorregar do nariz</li>
+            <li>Não deve pressionar as têmporas</li>
         </ul>
         <br />
         <p>As armações também devem ter proteção UV se a criança for usar ao ar livre. Utilize a nossa ferramenta de análise facial para encontrar a armação ideal, levando em conta o formato         do rosto e as preferências da criança. Além de estética, envolva seu filho na escolha para que ele se sinta mais animado em usar os óculos e aprenda a valorizar a saúde ocular.</p>
-        <Button color="secondary" onClick={toggle}>
+        <Button color="danger" onClick={toggle} className='btnFecharModalBlog'>
             Fechar
           </Button>
         </ModalBody>

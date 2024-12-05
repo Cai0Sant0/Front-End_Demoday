@@ -42,20 +42,20 @@ function LerMais4(props) {
         <p>Incorporar jogos que estimulem a visão e a coordenação motora nas atividades diárias pode ser uma maneira divertida de cuidar da saúde ocular. Jogos como:</p>
         <br />
         <ul>
-            <li>memória</li>
-            <li>quebra-cabeças</li>
-            <li>atividades de caça ao tesouro</li>
+            <li>Memória</li>
+            <li>Quebra-cabeças</li>
+            <li>Atividades de caça ao tesouro</li>
         </ul>
         <br />
         <p>São ótimos para desenvolver habilidades visuais. Além disso, atividades que envolvem movimentos, como:</p>
         <br />
         <ul>
-            <li>bola</li>
-            <li>desenhos</li>
+            <li>Bola</li>
+            <li>Desenhos</li>
         </ul>
         <br />
         <p>Ajudam a aprimorar a percepção espacial e a coordenação olho-mão. O nosso site oferece testes de visão interativos que não apenas entretêm, mas também ajudam os pais a monitorar a saúde ocular dos filhos. Esses jogos podem transformar o aprendizado em uma atividade lúdica e educativa, promovendo o interesse e a conscientização sobre a visão.</p>
-        <Button color="secondary" onClick={toggle}>
+        <Button color="danger" onClick={toggle} className='btnFecharModalBlog'>
             Fechar
           </Button>
         </ModalBody>

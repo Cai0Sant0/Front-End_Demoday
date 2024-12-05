@@ -8,6 +8,7 @@
     margin: 2em 0em 1em 0em;
 }
 
+
 .chamadaPais{
     margin: 15px;
     padding: 30px;
@@ -147,7 +148,12 @@
 
 @media (max-width:800px){
     .chamadaPais{
-        width: 14em;
+        width: 12em;
+        padding: 15px;
+    }
+
+    .fotoCapaBlog{
+        width: 90vw;
     }
 }
 

@@ -23,7 +23,7 @@ function Blog02() {
         <img
           src={imgPaiFilhoBlog}
           alt="Imagem de pai e filho "
-          className="fotoCapaBlog"
+          className={estilo.fotoCapaBlog}
         />
       </div>
 

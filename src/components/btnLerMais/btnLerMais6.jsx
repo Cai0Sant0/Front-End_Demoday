@@ -46,11 +46,11 @@ function LerMais6(props) {
         Na verdade, isso pode causar desconforto temporário, mas não danifica os olhos a longo prazo. Outro mito é que:</p>
         <br />
         <ul>
-            <li>usar óculos pode piorar a visão</li>
+            <li>Usar óculos pode piorar a visão</li>
         </ul>
         <br />
         <p>Na realidade, os óculos corrigem a visão e podem prevenir o agravamento de problemas existentes. Neste post, vamos desmistificar essas e outras ideias erradas, como a crença de que as crianças não precisam de exames de visão até a escola. Educar-se sobre esses mitos é um passo importante para garantir a saúde ocular das crianças, permitindo que os pais tomem decisões informadas sobre cuidados e exames.</p>
-        <Button color="secondary" onClick={toggle}>
+        <Button color="danger" onClick={toggle} className='btnFecharModalBlog'>
             Fechar
           </Button>
         </ModalBody>

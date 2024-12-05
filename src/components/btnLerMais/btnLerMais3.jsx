@@ -42,11 +42,11 @@ function LerMais3(props) {
         <p>Manter a iluminação adequada em casa é crucial, especialmente durante atividades que exigem concentração visual. Utilize luzes suaves e evite a iluminação direta nos olhos, o que pode causar desconforto e fadiga ocular. Ao criar um espaço para leitura ou estudo, escolha áreas bem iluminadas com luz natural sempre que possível. Estabeleça regras para pausas regulares durante o uso de telas, como a regra 20-20-20:</p>
         <br />
         <ul>
-            <li>a cada 20 minutos, a criança deve olhar para algo a 20 pés (aproximadamente 6 metros) de distância por 20 segundos</li>
+            <li>A cada 20 minutos, a criança deve olhar para algo a 20 pés (aproximadamente 6 metros) de distância por 20 segundos</li>
         </ul>
         <br />
         <p>Isso ajuda a relaxar os músculos oculares. Adicionalmente, incentive a postura correta ao ler ou usar dispositivos, garantindo que a tela esteja na altura dos olhos e a uma distância confortável.</p>
-        <Button color="secondary" onClick={toggle}>
+        <Button color="danger" onClick={toggle} className='btnFecharModalBlog'>
             Fechar
           </Button>
         </ModalBody>

@@ -42,13 +42,13 @@ function LerMais2(props) {
         <p>A exposição à luz natural é fundamental para o desenvolvimento saudável da visão. Estudos indicam que crianças que passam mais tempo ao ar livre têm menor risco de desenvolver miopia. A luz natural ajuda na liberação de dopamina, um neurotransmissor que inibe o alongamento excessivo do globo ocular, que é associado à miopia. Incentive seu filho a brincar fora, explorar a natureza e praticar esportes, como:</p>
         <br />
         <ul>
-            <li>futebol</li>
-            <li>ciclismo</li>
-            <li>passeios no parque</li>
+            <li>Futebol</li>
+            <li>Ciclismo</li>
+            <li>Passeios no parque</li>
         </ul>
         <br />
         <p>Essas atividades não só promovem a saúde ocular, mas também são ótimas para o desenvolvimento físico, social e emocional. Além disso, a interação com outras crianças ao ar livre contribui para habilidades sociais e de resolução de problemas.</p>
-        <Button color="secondary" onClick={toggle}>
+        <Button color="danger" onClick={toggle} className='btnFecharModalBlog'>
             Fechar
           </Button>
         </ModalBody>

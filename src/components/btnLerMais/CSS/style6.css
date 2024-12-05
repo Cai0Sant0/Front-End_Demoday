@@ -1,5 +1,9 @@
 .modal-content6{
+    line-height: 28px;
     background-color: #CA7DF9;
     color: #FFFF;
     border-radius: 5px;
+    font-weight: 500;
+
+    font-family: 'Montserrat', sans-serif;
 }
