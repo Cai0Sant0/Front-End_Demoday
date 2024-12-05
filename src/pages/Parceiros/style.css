@@ -188,7 +188,6 @@
   display: flex;
   justify-content: flex-end;
   gap: 1em;
-  margin-top: 15px;
 }
 
 @media (max-width: 750px) {
