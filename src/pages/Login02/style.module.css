@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+.corpoPrincipal{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.seccaoImg{
+    width: 50%;
+    height: 100%;
+    background: url(../../assets/images/imagemLogin/fundoLogin.jpg) no-repeat bottom;
+    background-size: cover;
+}
+
+.seccaoLogin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2em;
+    width: 50%;
+    height: 100%;
+}
+
+.formLogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+
+    width: 90%;
+    height: 25em;
+    border-radius: 20px;
+    background: linear-gradient(160deg, #ee9ccd ,#c0cbeb, #a7f3f5 );
+    backdrop-filter: blur(10px);
+}
+
+.formLogin label{
+    display: block;
+    font-size: 23px;
+    font-weight: 500;
+    width: 60%;
+    text-align: left;
+}
+
+.formLogin input{
+    width: 75%;
+    height: 2.5em;
+    border-radius: 30px;
+    padding: 5px;
+    text-align: center;
+}
+
+.formLogin p{
+    margin: 10px 10% 10px 0px;
+    text-align: end;
+    font-size: 20px;
+    font-weight: 500;
+    width: 100%;
+}
+
+.formLogin p a{
+    text-decoration: none;
+}
+
+.formLogin button{
+    width: 80%;
+    height: 3em;
+    border-radius: 40px;
+    font-weight: 600;
+    background-color: #f445a1;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .formLogin p{
+        font-size: 15px;
+        text-align: center;
+        margin: 10px;
+    }
+}

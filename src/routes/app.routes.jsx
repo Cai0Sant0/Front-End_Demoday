@@ -1,7 +1,7 @@
 import { Route, Routes as Switch } from "react-router-dom";
 
 import Home from "../pages/Home";
-import Login from "../pages/Login";
+import Login02 from "../pages/Login02";
 import Cadastro from "../pages/Cadastro";
 import CadastroKid from "../pages/CadastroKid";
 import IA from "../pages/IA";
@@ -25,7 +25,7 @@ function AppRoutes() {
 
       <Route path="/cadastro" element={<Cadastro />} />
       <Route path="/cadastroKid" element={<CadastroKid />} />
-      <Route path="/login" element={<Login />} />
+      <Route path="/login" element={<Login02 />} />
       <Route path="/fotoUsuario" element={<TelaUsuarioFotoPerfil />} />
       <Route path="/configuracaoUsuario" element={<ConfigUsuario />} />
 
