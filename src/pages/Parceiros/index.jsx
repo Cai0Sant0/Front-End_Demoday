@@ -15,7 +15,9 @@ function Parceiros() {
       <h1 className="tituloParceiros">Nossos Parceiros</h1>
 
       <section className="seccaoParceiro01">
-        <div className="logoParceiro01"></div>
+        <a href="https://naveguard.vercel.app/" target="_blank">
+          <div className="logoParceiro01"></div>
+        </a>
 
         <div className="conteudoParceiro01">
           <p className="paragrafoParceiro">
@@ -24,7 +26,7 @@ function Parceiros() {
         </div>
 
         <div className="redesSociasParceiroDireita">
-          <a href="#">
+          <a href="https://www.instagram.com/naveguard/" target="_blank">
             <img
               src={logoInstagram}
               alt="logo Instagram"
@@ -32,7 +34,7 @@ function Parceiros() {
               height="30"
             />
           </a>
-          <a href="#">
+          <a href="https://naveguard.vercel.app/"  target="_blank">
             <img
               src={logoGithub}
               alt="logo Github"
@@ -40,7 +42,7 @@ function Parceiros() {
               height="30"
             />
           </a>
-          <a href="#">
+          <a href="https://www.linkedin.com/company/naveguard/"  target="_blank">
             <img
               src={logoLinkedin}
               alt="logo Linkedin"
@@ -58,7 +60,7 @@ function Parceiros() {
         Óticas Kenzo hoje é uma das marcas mais desejadas. Contribuiram com o projeto “Te Vejo” disponibilizando seu catálogo de armações para uso exclusivo em nossa Lensify, gerando resultados inéditos que agradam cada vez mais nossos usuários.
 
         <div className="redesSociasParceiro">
-          <a href="#">
+          <a href="https://www.instagram.com/oticaskenzoferraz?igsh=azJlejdkNjFkNzQx"  target="_blank">
             <img
               src={logoInstagram}
               alt="logo Instagram"
@@ -66,18 +68,10 @@ function Parceiros() {
               height="30"
             />
           </a>
-          <a href="#">
+          <a href="https://www.facebook.com/oticaskenzo/"  target="_blank">
             <img
               src={logoFacebook}
               alt="logo Facebook"
-              width="30"
-              height="30"
-            />
-          </a>
-          <a href="#">
-            <img
-              src={logoLinkedin}
-              alt="logo Linkedin"
               width="30"
               height="30"
             />
@@ -97,7 +91,7 @@ function Parceiros() {
         </div>
 
         <div className="redesSociasParceiroDireita">
-          <a href="#">
+          <a href="https://www.instagram.com/oticajovemferraz?igsh=MWVrdnlnNXhhM285bQ=="  target="_blank">
             <img
               src={logoInstagram}
               alt="logo Instagram"
@@ -105,18 +99,10 @@ function Parceiros() {
               height="30"
             />
           </a>
-          <a href="#">
+          <a href="https://www.facebook.com/oticajovemsp/"  target="_blank">
             <img
               src={logoFacebook}
               alt="logo Facebook"
-              width="30"
-              height="30"
-            />
-          </a>
-          <a href="#">
-            <img
-              src={logoLinkedin}
-              alt="logo Linkedin"
               width="30"
               height="30"
             />

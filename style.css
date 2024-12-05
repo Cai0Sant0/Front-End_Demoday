@@ -5,3 +5,7 @@ body .uwy.userway_p1 .userway_buttons_wrapper {
 body .uwy.userway_p7 .userway_buttons_wrapper{
     top: 90% !important;
 }
+
+div[vw].enabled {
+    z-index: 99999 !important;
+}

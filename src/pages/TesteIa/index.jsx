@@ -11,7 +11,7 @@ const AnalisadorFacial = () => {
   const [erro, setErro] = useState(null);
   const [resultado, setResultado] = useState(null);
 
-  const apiKey = "AIzaSyBT1a5jIy30HWmlRLmas9eUNja5g_yH7FI";
+  const apiKey = import.meta.env.VITE_SOME_KEY;
 
   const analisarImagem = async (event) => {
     const file = event.target.files[0];

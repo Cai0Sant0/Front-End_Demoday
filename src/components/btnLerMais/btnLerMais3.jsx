@@ -25,7 +25,7 @@ function LerMais3(props) {
 
     <div>
       <Form  inline onSubmit={(e) => e.preventDefault()}>
-        <Button className="btnLerClassPrimary" color="light" onClick={toggle}>
+        <Button className="btnLerMais" color="light" onClick={toggle}>
         Continuar Lendo 
         </Button>
       </Form>
@@ -38,7 +38,7 @@ function LerMais3(props) {
       >
         
         <ModalBody className='modal-content3'>
-        <h3>Dicas para Criar um Ambiente Favorável à Saúde Ocular em Casa</h3>
+        <h3>Como criar um ambiente favorável à saúde ocular em casa?</h3>
         <p>Manter a iluminação adequada em casa é crucial, especialmente durante atividades que exigem concentração visual. Utilize luzes suaves e evite a iluminação direta nos olhos, o que pode causar desconforto e fadiga ocular. Ao criar um espaço para leitura ou estudo, escolha áreas bem iluminadas com luz natural sempre que possível. Estabeleça regras para pausas regulares durante o uso de telas, como a regra 20-20-20:</p>
         <br />
         <ul>

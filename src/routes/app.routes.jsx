@@ -7,7 +7,7 @@ import CadastroKid from "../pages/CadastroKid";
 import IA from "../pages/IA";
 import Jogos from "../pages/Jogos";
 import Sobre from "../pages/Sobre";
-import Blog from "../pages/Blog";
+import Blog02 from "../pages/Blog02";
 import EscolhaPerfil from "../pages/EscolhaPerfil";
 import NossaEquipe from "../pages/NossaEquipe";
 import TesteIa from "../pages/TesteIa";
@@ -37,7 +37,7 @@ function AppRoutes() {
 
       <Route path="/sobre" element={<Sobre />} />
       <Route path="/jogos" element={<Jogos />} />
-      <Route path="/blog" element={<Blog />} />
+      <Route path="/blog" element={<Blog02 />} />
 
       <Route path="/pagamento" element={<Pagamento />} />
     </Switch>

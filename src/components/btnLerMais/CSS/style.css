@@ -1,11 +1,23 @@
-.btnLerClassPrimary{
+.btnLerMais{
     border-radius: 20px;
     font-weight: 600;
     padding-left: 20px;
     padding-right: 20px;
+    margin-left: 50%;
+    width: 16em;
+
+    font-family: 'Montserrat', sans-serif;
 }
 .modal-content1{
     background-color: #2b616d;
     color: #FFFF;
     border-radius: 5px;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width:945px){
+    .btnLerMais{
+        margin-left: 0%;
+    }
 }

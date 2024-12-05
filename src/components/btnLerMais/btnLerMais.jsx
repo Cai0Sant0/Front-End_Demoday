@@ -21,7 +21,7 @@ function LerMais(props) {
 
     <div>
       <Form  inline onSubmit={(e) => e.preventDefault()}>
-        <Button className="btnLerClassPrimary" color="light" onClick={toggle}>
+        <Button className="btnLerMais" color="light" onClick={toggle}>
         Continuar Lendo 
         </Button>
       </Form>
