@@ -93,8 +93,13 @@
 
   .ListaCardPlano{
     padding-left: 34px;
-    list-style: none;
+    list-style: none !important;
     line-height: 35px;
+  }
+
+  .itemCardPlano::before{
+      content: "" !important;
+      margin-right: 0px !important; 
   }
 
   .LinkCardPlano{

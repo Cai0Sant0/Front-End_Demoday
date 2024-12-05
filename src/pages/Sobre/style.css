@@ -31,6 +31,12 @@
     border-radius: 40px;
 }
 
+.fotoCapaBlog{
+    height: 80%;
+    width: 80vw;
+    border-radius: 28px;
+}
+
 /* missão */
 .controlTextoMissao {
     display: flex;

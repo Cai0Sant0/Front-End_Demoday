@@ -8,10 +8,13 @@ import LerMais3 from "../../components/btnLerMais/btnLerMais3";
 import LerMais4 from "../../components/btnLerMais/btnLerMais4";
 import LerMais5 from "../../components/btnLerMais/btnLerMais5";
 import LerMais6 from "../../components/btnLerMais/btnLerMais6";
+import Topo from "../../components/ComponenteEscrolaPraCima";
 
 function Blog02() {
   return (
     <>
+
+      <Topo/>
       <NavbarPadrao />
 
       <div className={estilo.controlDeImg}>
