@@ -7,38 +7,40 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.seccaoImg{
-    width: 50%;
-    height: 100%;
-    background: url(../../assets/images/imagemLogin/fundoLogin.jpg) no-repeat bottom;
-    background-size: cover;
+.imgLogo{
+    width: 80%;
 }
 
-.seccaoLogin{
+.seccaoForm{
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 2em;
+    align-items: center;
+    gap: 10px;
+
+
     width: 50%;
     height: 100%;
+    background-color: #A7E8FC;
+    border-radius: 0em 5em 5em 0em;
 }
 
-.formLogin{
+.tituloCadastro{
+    margin-top: 50px;
+}
+
+.forms{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    gap: 15px;
 
     width: 90%;
-    height: 25em;
-    border-radius: 20px;
-    background: linear-gradient(160deg, #ee9ccd ,#c0cbeb, #a7f3f5 );
-    backdrop-filter: blur(10px);
+    height: 80%;
+    border-radius: 30px;
 }
 
-.formLogin label{
+.forms label{
     display: block;
     font-size: 23px;
     font-weight: 500;
@@ -46,7 +48,7 @@
     text-align: left;
 }
 
-.formLogin input{
+.forms input{
     width: 75%;
     height: 2.5em;
     border-radius: 30px;
@@ -54,14 +56,14 @@
     text-align: left;
 }
 
-.formLogin input::placeholder{
+.forms input::placeholder{
     text-align: center;
     font-family: 'Montserrat',sans-serif;
     color: rgba(0, 0, 0, 0.371);
     font-weight: 500;
 }
 
-.formLogin p{
+.forms p{
     margin: 10px 10% 10px 0px;
     text-align: end;
     font-size: 20px;
@@ -69,54 +71,57 @@
     width: 100%;
 }
 
-.linkCadastro{
+.linkLogin{
     text-decoration: none;
     color: #1d90aa;
 }
 
-.linkCadastro:hover{
+.linkLogin:hover{
     color: #0c4653;
     text-decoration: underline;
 }
 
-.formLogin p a{
-    text-decoration: none;
-}
-
-.formLogin button{
-    width: 80%;
-    height: 3em;
-    border-radius: 40px;
-    font-size: 21px;
+.linkCadastroKid{
     font-weight: 600;
-    background-color: #f445a1;
-    color: #fff;
+    text-decoration: none;
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    color: #59d1f6;
 }
 
-.formLogin button:hover{
-    background-color: #c43280;
+.linkCadastroKid:hover{
+    color: #0c4653;
+    background-color: #1d90aa;
     transform: translateY(-5px);
 
     transition: 0.5s ease-in-out;
 }
 
-@media (max-width: 768px) {
+.seccaoImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 50%;
+    height: 100%;
+}
+
+@media (max-width:400px){
     .seccaoImg{
-        width: 40%;
+        width: 45%;
     }
 
-    .seccaoLogin{
-        width: 60%;
+    .seccaoForm{
+        width: 55%;
     }
 
-    .formLogin p{
-        font-size: 14px;
+    .seccaoForm p {
+        font-size: 17px;
         text-align: center;
         margin: 10px;
         padding: 1px;
-    }
-
-    .tituloLogin{
-        text-align: center;
     }
 }

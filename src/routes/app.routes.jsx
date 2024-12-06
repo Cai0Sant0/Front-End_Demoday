@@ -2,7 +2,7 @@ import { Route, Routes as Switch } from "react-router-dom";
 
 import Home from "../pages/Home";
 import Login02 from "../pages/Login02";
-import Cadastro from "../pages/Cadastro";
+import Cadastro02 from "../pages/Cadastro02";
 import CadastroKid from "../pages/CadastroKid";
 import IA from "../pages/IA";
 import Jogos from "../pages/Jogos";
@@ -23,7 +23,7 @@ function AppRoutes() {
       <Route path="/" element={<Home />} />
       <Route path="/parceiros" element={<Parceiros />} />
 
-      <Route path="/cadastro" element={<Cadastro />} />
+      <Route path="/cadastro" element={<Cadastro02 />} />
       <Route path="/cadastroKid" element={<CadastroKid />} />
       <Route path="/login" element={<Login02 />} />
       <Route path="/fotoUsuario" element={<TelaUsuarioFotoPerfil />} />

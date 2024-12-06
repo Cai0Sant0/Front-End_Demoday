@@ -18,12 +18,12 @@ function Login02(){
                 <h1 className={estilo.tituloLogin}>Login Te Vejo!</h1>
                 <div className={estilo.formLogin}>
                     <label htmlFor="usuEmail">Email:</label>
-                    <input type="email" name="emailUsu" id="usuEmail" required placeholder='Seu Email' />
+                    <input type="email" name="emailUsu" id="usuEmail" required placeholder='Seu Email' autoComplete='off'/>
 
                     <label htmlFor="usuSenha">Senha:</label>
-                    <input type="password" name="senhaUsu" id="usuSenha" placeholder='Sua senha' />
+                    <input type="password" name="senhaUsu" id="usuSenha" placeholder='Sua senha' autoComplete='off'/>
 
-                    <p>Ainda não possui cadastro? {<Link to={"/cadastro"}>Cadastra-se</Link>}</p>
+                    <p>Ainda não possui cadastro? {<Link to={"/cadastro"} className={estilo.linkCadastro}>Cadastre-se</Link>}</p>
 
                     <button onClick={VerificaLogin()}>Logar</button>
                 </div>

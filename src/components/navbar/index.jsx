@@ -6,6 +6,9 @@ import { Link } from 'react-router-dom';
 import './style.css'
 
 function NavbarPadrao() {
+
+  let logado = false;
+
   return (
     <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary navBarPrincipal" sticky='top'>
       <Container>
@@ -21,8 +24,11 @@ function NavbarPadrao() {
             <Nav.Link as={Link} to={"/blog"} className='btnNavbar'>Blog</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link as={Link} to={"/login"} className='btnCadastroNavbar'>Login</Nav.Link>
-            {/* <Nav.Link as={Link} to={"/login"} className='btnLoginNavbar'>Logar</Nav.Link> */}
+          {!logado ? (
+              <Nav.Link as={Link} to={"/login"} className='btnCadastroNavbar'>Login</Nav.Link>
+            ) : (
+              <Nav.Link as={Link} to={"/fotoUsuario"} className='btnPerfilNavbar'>Meu perifl</Nav.Link>
+            )}
           </Nav>
         </Navbar.Collapse>
       </Container>

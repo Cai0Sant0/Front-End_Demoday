@@ -80,7 +80,7 @@ function FormularioPagamento() {
               <h3 className={estilo.title}>Pagamento</h3>
               <div className={estilo.inputBox}>
                 <span>Formas de pagamento: </span>
-                <img src={imgCartoes} alt="" />
+                <img src={imgCartoes} alt="imagens de formasa de pagamento" />
               </div>
               <div className={estilo.inputBox}>
                 <span>Nome no cartão: </span>
