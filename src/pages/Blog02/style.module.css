@@ -16,7 +16,7 @@
     position: absolute;
     background-color: #00000059;
     border-radius: 40px;
-    width: 12em;
+    width: 13em;
     line-height: 47px;
 }
 
@@ -148,7 +148,7 @@
 
 @media (max-width:800px){
     .chamadaPais{
-        width: 12em;
+        width: 13em;
         padding: 15px;
     }
 

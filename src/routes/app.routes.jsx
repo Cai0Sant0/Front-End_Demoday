@@ -6,7 +6,7 @@ import Cadastro02 from "../pages/Cadastro02";
 import Cadastro02Kid from "../pages/CadastroKid02";
 import IA from "../pages/IA";
 import Jogos from "../pages/Jogos";
-import Sobre from "../pages/Sobre";
+import Sobre02 from "../pages/Sobre02";
 import Blog02 from "../pages/Blog02";
 import EscolhaPerfil from "../pages/EscolhaPerfil";
 import NossaEquipe from "../pages/NossaEquipe";
@@ -34,8 +34,8 @@ function AppRoutes() {
 
       <Route path="/ia" element={<IA />} />
       <Route path="/testeIa" element={<TesteIa />} />
-
-      <Route path="/sobre" element={<Sobre />} />
+      
+      <Route path="/sobre" element={<Sobre02 />} /> 
       <Route path="/jogos" element={<Jogos />} />
       <Route path="/blog" element={<Blog02 />} />
 

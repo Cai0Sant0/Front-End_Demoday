@@ -135,4 +135,8 @@
     .botoesNavbar{
         width: 21em;
     }
+
+    .navbar-nav{
+        width: 21em;
+    }
 }

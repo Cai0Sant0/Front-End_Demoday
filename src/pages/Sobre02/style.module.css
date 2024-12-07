@@ -1,0 +1,362 @@
+@charset "UTF-8";
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.controlDeImgSobre {
+  display: flex;
+  justify-content: center;
+  margin: 2em 0em 1em 0em;
+}
+
+.chamadaPaisSobre {
+  margin: 15px;
+  padding: 30px;
+  color: #ffff;
+  position: absolute;
+  background-color: #00000059;
+  border-radius: 40px;
+  width: 17em;
+  line-height: 47px;
+}
+
+.fotoCapaSobre {
+  height: 80%;
+  width: 80vw;
+  border-radius: 28px;
+}
+
+.divisaoSombra {
+  border: none;
+  border-top: 2px solid #000;
+  margin: 20px 0;
+}
+
+.seccaoMissao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 100%;
+  gap: 10px;
+  height: 10em;
+}
+
+.tituloMissao {
+  margin: 0px;
+  font-weight: 800;
+  color: #59d1f6;
+  text-align: center;
+  padding-right: 10px;
+  width: 500px;
+}
+
+.linhaVertical {
+  width: 4px;
+  height: 105px;
+  background-color: #f445a1;
+  opacity: 1 !important;
+}
+
+.paragraphNossaMissao {
+  font-size: 20px;
+  padding-left: 25px;
+  font-weight: 600;
+  text-align: justify;
+  width: 31em;
+}
+
+.seccaoVisao {
+  width: 100%;
+  height: 35em;
+  display: flex;
+}
+
+.containerImgMenino {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+
+  width: 50%;
+  height: 100%;
+}
+
+.containerImgMenino img {
+  width: 70%;
+  margin-right: 10px;
+}
+
+.containerTextos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  width: 50%;
+  height: 100%;
+}
+
+.tituloVisao {
+  font-weight: 800;
+  color: #59d1f6;
+}
+
+.txtVisao {
+  font-size: 25px;
+  padding: 20px;
+  width: 80%;
+  font-weight: 600;
+  border: 5px solid #0d566c;
+}
+
+.valores {
+  text-align: center;
+  width: 280px;
+  font-weight: 800;
+  color: #59d1f6;
+}
+
+.divisaoSeccao {
+  max-width: 80%;
+  margin-left: 10%;
+  border-radius: 50px;
+  height: 3px;
+  background-color: #f445a1;
+  margin-bottom: 50px;
+  opacity: 1 !important;
+}
+
+.seccaoNossaOrigem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+
+  width: 100%;
+  height: 45em;
+}
+
+.tituloOrigem {
+  padding: 10px;
+  font-weight: 600;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #59d1f6;
+  color: #fff;
+  width: 50%;
+}
+
+.seccaoImgeTxt {
+  display: flex;
+  width: 100%;
+  height: 90%;
+}
+
+.seccaoTxt {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+
+  width: 50%;
+  height: 100%;
+}
+
+.txtOrigem {
+  width: 60%;
+  height: 11em;
+  background-color: #ffdf97;
+
+  text-align: center;
+  font-weight: 600;
+  padding: 20px;
+}
+
+.bolinhasIcones {
+  width: 45%;
+  margin-right: 35px;
+}
+
+.seccaoImg {
+  display: flex;
+  align-items: center;
+
+  width: 50%;
+  height: 100%;
+}
+
+.imgNossaEquipe {
+  width: 70%;
+  margin-left: 20px;
+}
+
+.seccaoProa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+
+  width: 100%;
+  height: 30em;
+}
+
+.explicaoProa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 30px;
+
+  width: 100%;
+  height: 100%;
+}
+
+.imgProa {
+  width: 13%;
+}
+
+.linhaVerticalProa {
+  width: 4px;
+  height: 200px;
+  background-color: #f445a1;
+  opacity: 1 !important;
+}
+
+.txtExplicacao {
+  text-align: justify;
+  font-size: 18px;
+  font-weight: 600;
+  width: 42em;
+  line-height: 2em;
+}
+
+@media (max-width: 800px) {
+  .chamadaPaisSobre {
+    width: 15em;
+    padding: 12px;
+    font-size: 21px;
+    height: 10em;
+  }
+
+  .fotoCapaSobre {
+    width: 97vw;
+  }
+
+  .seccaoMissao {
+    margin-bottom: 6em;
+    height: 20em;
+  }
+
+  .linhaVertical {
+    height: 15em;
+  }
+
+  .paragraphNossaMissao {
+    text-align: center;
+    width: 45em;
+  }
+
+  .seccaoVisao {
+    height: 16em;
+    margin-bottom: 8em;
+  }
+
+  .tituloVisao {
+    text-align: center;
+  }
+
+  .txtVisao {
+    font-size: 16px;
+    padding: 14px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .valores {
+    width: 190px;
+    font-size: 19px;
+  }
+
+  .containerImgMenino img {
+    width: 100%;
+    margin: 0px;
+  }
+
+  .tituloOrigem {
+    width: 80%;
+  }
+
+  .seccaoNossaOrigem {
+    height: 30em;
+    gap: 0px;
+  }
+
+  .txtOrigem {
+    width: 90%;
+    height: 17em;
+    padding: 13px;
+    font-size: 13px;
+  }
+
+  .imgNossaEquipe {
+    width: 90%;
+  }
+
+  .txtExplicacao {
+    width: 20em;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 400px) {
+  .chamadaPaisSobre {
+    height: 8em;
+    width: 17em;
+  }
+
+  .seccaoMissao {
+    margin-bottom: 9em;
+  }
+
+  .linhaVertical{
+    width: 9px;
+  }
+
+  .txtVisao {
+    width: 90%;
+  }
+  .valores {
+    font-size: 17px;
+  }
+
+  .txtOrigem {
+    width: 95%;
+    height: 18em;
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .bolinhasIcones {
+    width: 60%;
+  }
+
+  .imgNossaEquipe {
+    width: 88%;
+  }
+
+  .imgProa{
+    width: 23%;
+  }
+
+  .linhaVerticalProa{
+    height: 310px;
+  }
+
+  .txtExplicacao {
+    width: 17em;
+    font-size: 12px;
+  }
+}
