@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+.corpoPrincipal{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.seccaoImg{
+    background: url(../../assets/images/imagemCadastroKid/imgCriancas.png) no-repeat bottom;
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+}
+
+.seccaoImg img {
+    width: 50%;
+    height: 50%;
+}
+
+.seccaoFormulario{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+
+
+    width: 50%;
+    height: 100%;
+    background-color: #A7E8FC;
+}
+
+.tituloCadastroKid{
+    text-align: center;
+}
+
+.txtExplicacao{
+    text-align: center;
+    width: 80%;
+    font-size: 18px;
+}
+
+.formulario{
+    background-color: rgba(255, 255, 255, 0.282);
+    border-radius: 40px;
+    width: 80%;
+    height: 60%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.formulario label{
+    display: block;
+    font-size: 23px;
+    font-weight: 500;
+    width: 60%;
+    text-align: left;
+}
+
+.formulario input{
+    width: 75%;
+    height: 2.5em;
+    border-radius: 30px;
+    padding: 5px 20px;
+    text-align: left;
+}
+
+.formulario input::placeholder{
+    text-align: center;
+    font-family: 'Montserrat',sans-serif;
+    color: rgba(0, 0, 0, 0.371);
+    font-weight: 500;
+}
+
+.BtnsCadadastroKids{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.btnCadastrarKids,.LinkHome{
+    font-weight: 600;
+    text-decoration: none;
+    width: 40%;
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    color: #59d1f6;
+}
+
+.btnCadastrarKids:hover, .LinkHome:hover{
+    color: #0c4653;
+    background-color: #1d90aa;
+    transform: translateY(-5px);
+
+    transition: 0.5s ease-in-out;
+}
+
+@media (max-width: 760px){
+    .seccaoFormulario{
+        width: 70%;
+        gap: 2px;
+    }
+
+    .seccaoImg{
+        width: 30%;
+    }
+
+    .tituloCadastroKid{
+        margin-top: 10px;
+    }
+
+    .formulario{
+        height: 90%;
+        width: 90%;
+    }
+
+    .LinkHome{
+        height: 67px;
+        padding: 10px;
+    }
+
+    .btnCadastrarKids{
+        height: 67px;
+    }
+}
+
+
+@media (max-width:400px){
+    .tituloCadastroKid{
+        margin-top: 5px;
+    }
+
+    .txtExplicacao{
+        font-size: 14px;
+    }
+
+    .formulario{
+        justify-content: center;
+        gap: 1.5em;
+    }
+
+    .formulario label{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .formulario input{
+        width: 90%;
+    }
+
+    .btnCadastrarKids{
+        height: 3em;
+        width: 50%;
+    }
+
+    .LinkHome{
+        width: 40%;
+        height: 3em;
+        padding: 0px;
+    }
+}

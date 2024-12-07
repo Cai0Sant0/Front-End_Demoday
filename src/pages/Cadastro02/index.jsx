@@ -2,6 +2,9 @@ import estilo from "./style.module.css";
 import logoTevejo from "../../assets/images/logo/logo.svg";
 import { Link } from "react-router-dom";
 
+
+
+
 function Cadastro02() {
   return (
     <>
@@ -37,6 +40,7 @@ function Cadastro02() {
               required
               autoComplete="off"
               placeholder="xxx.xxx.xxx-xx"
+              id="cpfUsu"
             />
 
             <label htmlFor="senhaUsu">Criar senha:</label>
@@ -58,7 +62,20 @@ function Cadastro02() {
               }
             </p>
 
-            {<Link to={"/cadastroKid"} className={estilo.linkCadastroKid}>Avançar</Link>}
+            <Link className={estilo.linkCadastroKid} to={"/cadastroKid"} onClick={()=>{
+              let nome = document.getElementById('nomeUsu');
+              let email = document.getElementById('emailUsu');
+              let cpf = document.getElementById('cpfUsu');
+              let senha = document.getElementById('senhaUsu');
+
+
+              nome.value = "";
+              email.value = "";
+              cpf.value = "";
+              senha.value = "";
+            }}>
+              Cadastrar
+            </Link>
           </div>
         </section>
         <section className={estilo.seccaoImg}>
