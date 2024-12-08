@@ -22,3 +22,14 @@
     height: 4em;
     margin-left: 9px;
 }
+
+@media (max-width: 550px) {
+
+    .btnSidebar{
+        height: 3em;
+    }
+
+    .btnSidebar img{
+        height: 2.5em;
+    }
+}
