@@ -26,7 +26,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #0000004f;
+    background-color: #2387A6;
     width: 50%;
     height: 30em;
     margin: auto;
@@ -45,10 +45,10 @@
     padding: 9px;
     border-radius: 30px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     margin-top: 15px;
     width: 25em;
-    color: #595959;
+    color: #59d1f6;
 }
 
 #inputImagem{
@@ -61,7 +61,8 @@
 
 .imagem-preview{
     display: flex;
-    background-color: #787a7c;
+    gap: 10px;
+    background-color: #59D1F6;
     width: 95%;
     height: 50%;
     justify-content: center;
@@ -73,6 +74,10 @@
     width: 60%;
     height: 100%;
     padding: 5px;
+}
+
+.btnAnalogico , .botoesControle{
+    width: 8em;
 }
 
 .loadingIA{
@@ -90,13 +95,20 @@
     width: 13em;
     background-color: whitesmoke;
     text-align: center;
-    color: #595959;
+    color: #59d1f6;
     border-radius: 11px;
     text-decoration: none;
     height: 2.4em;
     padding: 7px;
     font-family: 'Montserrat';
     font-weight: 600;
+}
+
+.linkFiltroTelaTesteIA:hover{
+    color: #0c4653;
+    background-color: #bcd5db;
+    transform: translateY(-5px);
+    transition: 0.5s ease-in-out;
 }
 
 .error{
@@ -108,9 +120,30 @@
     .containerIA{
         width: 88%;
     }
+
+    .imagem-preview{
+        gap: 0px;
+    }
+
+    .botoesControle, .btnAnalogico{
+        width: 5em;
+    }
+
+    .imgSelecionada{
+        height: 85%;
+    }
 }
 
 @media (max-width:480px){
+
+    .tituloTesteIA{
+        text-align: center;
+    }
+
+    .descTesteIA{
+        text-align: center;
+    }
+
     .btnEscolheImg{
         width: 18em;
     }
@@ -118,8 +151,12 @@
         width: 18em;
     }
 
+    .botoesControle, .btnAnalogico{
+        display: none;
+    }
+
     .imgSelecionada {
-        width: 89%;
+        width: 90%;
         height: 90%;
     }
 

@@ -67,19 +67,24 @@
     font-weight: bolder;
 }
 
+.txtPrimeiroSlide h3, .txtPrimeiroSlide p, .txtSegundoSlide h3, .txtSegundoSlide p, .txtTerceiroSlide h3, .txtTerceiroSlide p, .txtQuartoSlide h3, .txtQuartoSlide p{
+    display: none;
+}
+
 .btnCarrosel01, .btnCarrosel02, .btnCarrosel03, .btnCarrosel04{
     text-decoration: none;
     color: #000000a6;
-
     background-color: rgb(255, 255, 255);
     margin: 0px 15px 0px 15px;
-    width: 21.5em;
+    width: 12.5em;
     border-radius: 40px;
-
     font-family: 'montserrat';
     font-weight: 700;
     height: 2em;
     padding: 5px;
+    font-size: 24px;
+    margin-bottom: 1.5em;
+    margin-right: 2em;
 }
 
 
@@ -140,8 +145,13 @@
         border-radius: 15px;
     }
 
+    .txtPrimeiroSlide h3, .txtPrimeiroSlide p, .txtSegundoSlide h3, .txtSegundoSlide p, .txtTerceiroSlide h3, .txtTerceiroSlide p, .txtQuartoSlide h3, .txtQuartoSlide p{
+        display: block;
+    }
+
     .btnCarrosel01, .btnCarrosel02, .btnCarrosel03, .btnCarrosel04{
         width: 10em;
+        margin-bottom: 0px;
     }
 
     .central {

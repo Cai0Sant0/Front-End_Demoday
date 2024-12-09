@@ -3,7 +3,8 @@ import './style.css';
 import NavbarPadrao from '../../components/navbar';
 import Popo from '../../components/BtnIaArmacao/btnArmacao';
 import { Link } from 'react-router-dom';
-
+import analogico from "../../assets/images/imagensTesteIA/btn02.png";
+import botoes from "../../assets/images/imagensTesteIA/btn01.png";
 
 const AnalisadorFacial = () => {
   const [imagemSelecionada, setImagemSelecionada] = useState(null);
@@ -107,50 +108,68 @@ const AnalisadorFacial = () => {
   return (
     <>
 
-    <NavbarPadrao/>
+      <NavbarPadrao />
 
 
-    <section className='explicacaoIA'>
-      <h1 className='tituloTesteIA'>Análise Facial</h1>
-      <p className='descTesteIA'>Escolha uma imagem para analisar a expressão facial.</p>
-    </section>
+      <section className='explicacaoIA'>
+        <h1 className='tituloTesteIA'>Análise Facial</h1>
+        <p className='descTesteIA'>Escolha uma imagem para analisar a expressão facial.</p>
+      </section>
 
 
-    <section className="containerIA">
-      <div className="BtnEinputIA">
-        <button className="btnEscolheImg">Escolher Imagem</button>
-        <input
-          type="file"
-          id="inputImagem"
-          accept="image/*"
-          onChange={analisarImagem}
-        />
-        
-      </div>
-      <div id="imagem-preview" className="imagem-preview">
-        {imagemSelecionada && (
-          <img
-            className='imgSelecionada'
-            id="imagemSelecionada"
-            alt="Imagem selecionada"
-            src={imagemSelecionada}
+      <section className="containerIA">
+        <div className="BtnEinputIA">
+          <button className="btnEscolheImg">Escolher Imagem</button>
+          <input
+            type="file"
+            id="inputImagem"
+            accept="image/*"
+            onChange={analisarImagem}
           />
-        )}
-      </div>
-      {loading && <div id="loading" className="loadingIA">Analisando imagem...</div>}
-      {erro && <div id="error" className="error">{erro}</div>}
-      {resultado && (
-        <div id="resultado">
 
-          <Popo armacao = {resultado.MelhorArmacao} className = "popoverTelaTesteIA"/>
-          {<Link to={"/filtro"} className='linkFiltroTelaTesteIA'>Testar Armação</Link>}
-
-          
-          {/* <h2>Resultados da Análise:</h2>
-          <p><strong>Melhor Armação:</strong> <span id="melhorArmacao">{resultado.MelhorArmacao}</span></p> */}
         </div>
-      )}
-    </section>
+        <div id="imagem-preview" className="imagem-preview">
+          {imagemSelecionada && (
+            <>
+
+              <img
+                className='btnAnalogico'
+                alt='imagem de analogico de controle'
+                src={analogico}
+              />
+
+
+              <img
+                className='imgSelecionada'
+                id="imagemSelecionada"
+                alt="Imagem selecionada"
+                src={imagemSelecionada}
+              />
+
+
+              <img
+                className='botoesControle'
+                alt='imagem de botoes de controle'
+                src={botoes}
+              />
+
+            </>
+          )}
+        </div>
+        {loading && <div id="loading" className="loadingIA">Analisando imagem...</div>}
+        {erro && <div id="error" className="error">{erro}</div>}
+        {resultado && (
+          <div id="resultado">
+
+            <Popo armacao={resultado.MelhorArmacao} className="popoverTelaTesteIA" />
+            {<Link to={"/filtro"} className='linkFiltroTelaTesteIA'>Testar Armação</Link>}
+
+
+            {/* <h2>Resultados da Análise:</h2>
+          <p><strong>Melhor Armação:</strong> <span id="melhorArmacao">{resultado.MelhorArmacao}</span></p> */}
+          </div>
+        )}
+      </section>
 
 
 
