@@ -161,3 +161,9 @@
     }
 }
 
+@media (max-width:400px){
+    .btnCarrosel01, .btnCarrosel02, .btnCarrosel03, .btnCarrosel04{
+        margin-right: 10px;
+    }
+}
+
