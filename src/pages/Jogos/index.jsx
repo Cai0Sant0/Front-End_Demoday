@@ -20,19 +20,6 @@ function Jogos(){
             <p>Com diversão e jogos, ajudamos as crianças a enxergarem o mundo com clareza – porque o primeiro passo para um olhar mais nítido começa com a descoberta!</p>
         </section>
 
-        <section className='seccaoPrimeiroJogo'>
-            <div className='imgJogo01'></div>
-            <div className='conteudoJogo01'>
-                <div className="descjogo01Jogo">
-                    <p className='textDescJogos01'>Pequeno explorador  
-                    você está prestes a entrar em um mundo cheio de <strong>Letras Secretas</strong>. </p>
-                    <p className='textDescJogos02'>
-                    Um jogo divertido para ajudar você a reconhecer o alfabeto de forma rápida e emocionante.</p>
-                </div>
-                {<Link to={"/DesafioLetras"} className='btnsJogos'>O DESAFIO DAS LETRAS</Link>}
-            </div>
-        </section>
-
         <section className='seccaoSegundoJogo'>
             <div className='conteudoJogo01'>
                 <div className="descjogo01Jogo">
@@ -55,14 +42,27 @@ function Jogos(){
                 {<Link to={"/foraDoMeuReino"} className='btnsJogos'>FORA DO MEU REINO</Link>}
             </div>
         </section>
+
+        <section className='seccaoPrimeiroJogo'>
+            <div className='imgJogo01'></div>
+            <div className='conteudoJogo01'>
+                <div className="descjogoDesabilitado">
+                    <p className='textDescJogos01'>Pequeno explorador  
+                    você está prestes a entrar em um mundo cheio de <strong>Letras Secretas</strong>. </p>
+                    <p className='textDescJogos02'>
+                    Um jogo divertido para ajudar você a reconhecer o alfabeto de forma rápida e emocionante.</p>
+                </div>
+                {<Link className='btnsJogosDesabiltado'>EM BREVE...</Link>}
+            </div>
+        </section>
         
         <section className='seccaoQuartoJogo'>
             <div className='conteudoJogo01'>
-                <div className="descjogo01Jogo">
+                <div className="descjogoDesabilitado">
                     <p className='textDescJogos01'>Bem-vindo, Pequeno Viajante das Estrelas! Prepare-se para uma aventura pelo espaço! </p>
                     <p className='textDescJogos02'>Agarre-se a uma estrela e viaje em <strong>Uma Jornada</strong> entre planetas coloridos, cometas brilhantes e constelações misteriosas.</p>
                 </div>
-                {<Link to={"/JornadaEstrela"} className='btnsJogos'>JORNADA COM A ESTRELA</Link>}
+                {<Link className='btnsJogosDesabiltado'>EM BREVE...</Link>}
                 
             </div>
             <div className='imgJogo04'></div>

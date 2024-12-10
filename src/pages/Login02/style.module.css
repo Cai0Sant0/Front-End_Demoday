@@ -102,11 +102,11 @@
 
 @media (max-width: 768px) {
     .seccaoImg{
-        width: 40%;
+        display: none;
     }
 
     .seccaoLogin{
-        width: 60%;
+        width: 100%;
     }
 
     .formLogin p{
@@ -118,5 +118,6 @@
 
     .tituloLogin{
         text-align: center;
+        font-size: 4em;
     }
 }
