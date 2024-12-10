@@ -109,13 +109,23 @@
     height: 100%;
 }
 
-@media (max-width:400px){
+@media (max-width:600px){
+
+    .corpoPrincipal{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
     .seccaoImg{
-        width: 45%;
+        width: 55%;
+        height: 25%;
     }
 
     .seccaoForm{
-        width: 55%;
+        width: 75%;
+        border-radius: 40px;
+        margin-bottom: 10px;
+        gap: 3px;
     }
 
     .seccaoForm p {

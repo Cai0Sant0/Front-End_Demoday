@@ -43,7 +43,7 @@
 }
 
 .formulario{
-    background-color: rgba(255, 255, 255, 0.282);
+    background-color: #f2f2f2bd;
     border-radius: 40px;
     width: 80%;
     height: 60%;
@@ -107,26 +107,27 @@
 
 @media (max-width: 760px){
     .seccaoFormulario{
-        width: 70%;
-        gap: 2px;
+        width: 100%;
+        gap: 10px;
     }
 
     .seccaoImg{
-        width: 30%;
+        display: none;
     }
 
     .tituloCadastroKid{
-        margin-top: 10px;
+        margin-top: 20px;
     }
 
     .formulario{
         height: 90%;
         width: 90%;
+        margin-bottom:25px;
     }
 
     .LinkHome{
         height: 67px;
-        padding: 10px;
+        padding: 22px;
     }
 
     .btnCadastrarKids{
@@ -136,6 +137,13 @@
 
 
 @media (max-width:400px){
+
+    .seccaoFormulario{
+        gap: 30px;
+    }
+
+
+
     .tituloCadastroKid{
         margin-top: 5px;
     }
@@ -145,8 +153,11 @@
     }
 
     .formulario{
+        height: 70%;
+        width: 90%;
+        padding: 10px;
         justify-content: center;
-        gap: 1.5em;
+        gap: 2.5em;
     }
 
     .formulario label{
@@ -164,8 +175,8 @@
     }
 
     .LinkHome{
-        width: 40%;
+        width: 45%;
         height: 3em;
-        padding: 0px;
+        padding: 11px;
     }
 }
