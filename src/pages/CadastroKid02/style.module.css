@@ -154,7 +154,8 @@
 
     .formulario{
         height: 70%;
-        width: 85%;
+        width: 90%;
+        padding: 10px;
         justify-content: center;
         gap: 2.5em;
     }
