@@ -47,7 +47,7 @@ function IA(){
         <section className='ContainerIAeFiltro'>
             <div className="OculosEscolhaIa">
                 <img src={ImgOculos} alt="" className='FotoOculosIA'/>
-                {<Link to={"/filtro"} className='btnFiltroTelaIa' id='ia'>FILTRO</Link>}
+                {<Link to={"/AR"} className='btnFiltroTelaIa' id='ia'>FILTRO</Link>}
                 {<Link to={"/testeIa"} className='btnIaTelaIa' id='filtro'>LENSIFY IA</Link>}
             </div>
         </section>

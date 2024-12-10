@@ -15,6 +15,7 @@ import Parceiros from "../pages/Parceiros";
 import Pagamento from "../pages/PagamentoPlano";
 import TelaUsuarioFotoPerfil from "../pages/FotoPerfilUsuario";
 import ConfigUsuario from "../pages/ConfiguracaoUsuario";
+import AR from "../pages/AR";
 
 function AppRoutes() {
   return (
@@ -40,6 +41,8 @@ function AppRoutes() {
       <Route path="/blog" element={<Blog02 />} />
 
       <Route path="/pagamento" element={<Pagamento />} />
+
+      <Route path="/AR" element={<AR />} />
     </Switch>
   );
 }
