@@ -276,11 +276,13 @@ function AR() {
             const angleY = Math.atan2(rightEar[2] - leftEar[2], earDistance);
 
             glasses.position.set(
-                -(nose[0] - videoWidth / 2) / 100,
-                -(nose[1] - videoHeight / 2) / 100,
+                // -(nose[0] - videoWidth / 2) / 100,
+                -(nose[0] / 100) + (videoWidth / 2) / 100,
+                // -(nose[1] - videoHeight / 2) / 100,
+                -(nose[1] / 100) + (videoHeight / 2) / 100,
                 -(nose[2] || 0) / 100
             );
-            glasses.rotation.set(0, angleY, angleZ);
+            glasses.rotation.set(0, -angleY, angleZ);
             glasses.scale.set(scale, scale, scale);
             glasses.visible = true; // Torna os óculos visíveis após validações
         };
