@@ -3,10 +3,6 @@ import estilo from './style.module.css';
 
 function Login02(){
 
-    function VerificaLogin(){
-
-    }
-
     return(
         <>
         <main className={estilo.corpoPrincipal}>
@@ -25,7 +21,9 @@ function Login02(){
 
                     <p>Ainda não possui cadastro? {<Link to={"/cadastro"} className={estilo.linkCadastro}>Cadastre-se</Link>}</p>
 
-                    <button onClick={VerificaLogin()}>Logar</button>
+                    <button onClick={()=>{
+                        window.location.href = "/logado"
+                    }}>Logar</button>
                 </div>
             </section>
 

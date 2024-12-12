@@ -44,9 +44,9 @@ function Cadastro02Kid() {
                 <button className={estilo.btnCadastrarKids} onClick={()=>{
                     alert("Cadastro realizado com sucesso!");
 
-                    window.location.href = "/"
+                    window.location.href = "/logado"
                 }}>Cadastrar</button>
-                {<Link to={"/"} className={estilo.LinkHome}>Ir para home</Link>}
+                {<Link to={"/logado"} className={estilo.LinkHome}>Ir para home</Link>}
             </div>
           </div>
         </section>

@@ -8,7 +8,6 @@ import IA from "../pages/IA";
 import Jogos from "../pages/Jogos";
 import Sobre02 from "../pages/Sobre02";
 import Blog02 from "../pages/Blog02";
-import EscolhaPerfil from "../pages/EscolhaPerfil";
 import NossaEquipe from "../pages/NossaEquipe";
 import TesteIa from "../pages/TesteIa";
 import Parceiros from "../pages/Parceiros";
@@ -17,11 +16,22 @@ import TelaUsuarioFotoPerfil from "../pages/FotoPerfilUsuario";
 import ConfigUsuario from "../pages/ConfiguracaoUsuario";
 import AR from "../pages/AR";
 
+import HomeLogado from "../pages/HomeLogado";
+import IALogado from "../pages/IA_Logado";
+import JogosLogado from "../pages/JogosLogado";
+import NossaEquipeLogado from "../pages/NossaEquipeLogado";
+import PagamentoLogado from "../pages/PagamentoPlanoLogado";
+import ParceirosLogado from "../pages/ParceirosLogado";
+import Sobre02Logado from "../pages/Sobre02Logado";
+import TesteIaLogado from "../pages/TesteIaLogado";
+import Blog02Logado from "../pages/Blog02Logado";
+
 function AppRoutes() {
   return (
     <Switch>
 
       <Route path="/" element={<Home />} />
+      <Route path="/logado" element={<HomeLogado/>}/>
       <Route path="/parceiros" element={<Parceiros />} />
 
       <Route path="/cadastro" element={<Cadastro02 />} />
@@ -31,7 +41,6 @@ function AppRoutes() {
       <Route path="/configuracaoUsuario" element={<ConfigUsuario />} />
 
       <Route path="/nossaEquipe" element={<NossaEquipe />} />
-      <Route path="/escolhaPerfil" element={<EscolhaPerfil />} />
 
       <Route path="/ia" element={<IA />} />
       <Route path="/testeIa" element={<TesteIa />} />

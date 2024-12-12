@@ -7,7 +7,7 @@ import './style.css'
 import { Link } from 'react-router-dom';
 
 
-function CarroselHome() {
+function CarroselHome(props) {
   return (
         <div className='central central-large'>
           <Carousel interval={400000}>
@@ -17,7 +17,7 @@ function CarroselHome() {
               <Carousel.Caption className='txtPrimeiroSlide'>
               <h3>Venha Conhecer a TeVejo</h3>
               <p>Aqui cuidamos da sáude visual do seu pequeno!</p>
-              {<Link to={"/cadastro"} className='btnCarrosel01'>Cadastre-se</Link>}
+              {<Link to={props.link01} className='btnCarrosel01'>{props.txtBtn01}</Link>}
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -25,7 +25,7 @@ function CarroselHome() {
               <Carousel.Caption className='txtSegundoSlide'>
                 <h3>Venha Conhecer a TeVejo</h3>
                 <p>Aqui seu pequeno tem uma visão brilhante!</p>
-                {<Link to={"/cadastro"} className='btnCarrosel02'>Cadastre-se</Link>}
+                {<Link to={props.link02} className='btnCarrosel02'>{props.txtBtn02}</Link>}
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>

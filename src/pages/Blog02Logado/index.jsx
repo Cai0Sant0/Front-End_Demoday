@@ -1,6 +1,4 @@
 import estilo from "./style.module.css";
-import NavbarPadrao from "../../components/navbar";
-import FooterPadrao from "../../components/footer";
 import imgPaiFilhoBlog from "../../assets/images/imagemBlog/imgPaiFilhoBlog.svg";
 import LerMais from "../../components/btnLerMais/btnLerMais";
 import LerMais2 from "../../components/btnLerMais/btnLerMais2";
@@ -9,13 +7,15 @@ import LerMais4 from "../../components/btnLerMais/btnLerMais4";
 import LerMais5 from "../../components/btnLerMais/btnLerMais5";
 import LerMais6 from "../../components/btnLerMais/btnLerMais6";
 import Topo from "../../components/ComponenteEscrolaPraCima";
+import NavbarPadraoLogado from "../../components/navbarLogado";
+import FooterPadraoLogado from "../../components/footerLogado";
 
-function Blog02() {
+function Blog02Logado() {
   return (
     <>
 
       <Topo/>
-      <NavbarPadrao/>
+      <NavbarPadraoLogado usuLogado={true}/>
 
       <div className={estilo.controlDeImg}>
         <div className={estilo.chamadaControl}>
@@ -118,9 +118,9 @@ function Blog02() {
         </div>
       </section>
 
-      <FooterPadrao />
+      <FooterPadraoLogado />
     </>
   );
 }
 
-export default Blog02;
+export default Blog02Logado;
