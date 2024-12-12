@@ -1,6 +1,5 @@
-import "./style.css";
-import NavbarPadrao from "../../components/navbar";
-import FooterPadrao from "../../components/footer";
+import estilo from "./style.module.css";
+import FooterPadraoLogado from "../../components/footerLogado";
 import CardJogo from "../../components/cardJogos/CardJogo";
 import CardPlano from "../../components/cardPlanos/CardPlano";
 import { Link } from "react-router-dom";
@@ -17,18 +16,19 @@ import logoJovem from "../../assets/images/logoParceiros/logoJovem.png";
 import logoSymbee from "../../assets/images/logoParceiros/logoSymbee.png";
 
 import CarroselHome from "../../components/carroselHome/CarroselHome";
+import NavbarPadraoLogado from "../../components/navbarLogado";
 // import Libras from "../../components/VLibras";
 
-function Home() {
+function HomeLogado() {
 
   return (
     <>
       <Topo />
-      <NavbarPadrao />
+      <NavbarPadraoLogado usuLogado={true} />
 
-      <CarroselHome txtBtn01="Cadastre-se" txtBtn02="Cadastre-se" link01="/cadastro" link02="/cadastro" />
+      <h1 className={estilo.tituloNomeDoUsuario} >Seja-bem Vindo! nome do usuário</h1>
 
-      {/* <Libras /> */}
+      <CarroselHome link01={"/fotoUsuario"} link02={"/configuracaoUsuario"} txtBtn01={"Veja seu perfil"} txtBtn02={"Suas Informações"} />
 
       <section className="segundaSeccaoHome">
         <div className="imgsegundaSeccaoHome">
@@ -46,7 +46,7 @@ function Home() {
               <strong> óculos</strong> mais adequados, unindo estilo e conforto.
             </p>
             {
-              <Link className="linkIaHomeEmDestaque" to={"/ia"}>
+              <Link className="linkIaHomeEmDestaque" to={"/iaLogado"}>
                 Testar Agora
               </Link>
             }
@@ -64,7 +64,7 @@ function Home() {
         <div className="PrimeiroJogoSeccaoHome">
           {
             <CardJogo
-              usuarioLogado={false}
+              usuarioLogado={true}
               img={imgPrimeiroJogo}
               desc={
                 "Pequeno explorador você está prestes a entrar em um mundo cheio de Letras Secretas."
@@ -77,7 +77,7 @@ function Home() {
         <div className="SegundoJogoSeccaoHome">
           {
             <CardJogo
-              usuarioLogado={false}
+              usuarioLogado={true}
               img={imgSegundoJogo}
               desc={
                 "Prepare-se para uma aventura em Fotografia Florestal. Pegue sua câmera, porque cada clique é uma nova descoberta!"
@@ -90,7 +90,7 @@ function Home() {
         <div className="TerceiroJogoSeccaoHome">
           {
             <CardJogo
-              usuarioLogado={false}
+              usuarioLogado={true}
               img={imgTerceiroJogo}
               desc={
                 "Os reis precisam de sua ajuda para encontrar um impostor entre os soldados! Boa sorte na missão."
@@ -103,28 +103,15 @@ function Home() {
       </section>
       <section className="ContainerlinkParaJogo">
         {
-          <Link className="linkParaOsJogosHome" to={"/jogos"}>
-            PARA CONHECER MAIS JOGOS CLIQUE AQUI!
+          <Link className="linkParaOsJogosHome" to={"/jogosLogado"}>
+            JOGUE AGORA OS JOGOS!
           </Link>
         }
       </section>
 
-      <h2 className="SubtituloParaOsPlanos">Acesse nossos planos!</h2>
+      <h2 className="SubtituloParaOsPlanos">Assine nosso plano!</h2>
 
       <section className="QuartaSeccaoHome">
-        <CardPlano
-          ValorPlano={"R$ 00,00/Mês"}
-          TipoPlano={"Free"}
-          bene01={"Acesso aos blogs"}
-          bene02={"Lensify: Teste grátis"}
-          bene03={"2 jogos grátis"}
-          bene04={"Realidade aumentada"}
-          caminhoBtn={"/cadastro"}
-          txtBtn={"Cadastrar-se"}
-          CorfundoCartao={"#2387A6"}
-          CorfundoCartao02={"#a6e6fa"}
-        />
-
         <CardPlano
           ValorPlano={"R$ 29,90/Mês"}
           TipoPlano={"Plus"}
@@ -132,7 +119,7 @@ function Home() {
           bene02={"Lensify: Ilimitado"}
           bene03={"Jogos liberados"}
           bene04={"Ícones exclusivos"}
-          caminhoBtn={"/pagamento"}
+          caminhoBtn={"/pagamentoLogado"}
           txtBtn={"Assinar agora"}
           CorfundoCartao={"#FFB800"}
           CorfundoCartao02={"#ffb80059"}
@@ -143,19 +130,19 @@ function Home() {
 
       <section className="sliderParceiros">
         <div className="list">
-          <Link to={"/parceiros"}>
+          <Link to={"/parceirosLogado"}>
             <div className="itemParceiro slide01Parceiro">
               <img src={logoKenzo} alt="logo óticas Kenzo" />
             </div>
           </Link>
 
-          <Link to={"/parceiros"}>
+          <Link to={"/parceirosLogado"}>
             <div className="itemParceiro slide02Parceiro">
               <img src={logoJovem} alt="logo óticas Jovem" />
             </div>
           </Link>
 
-          <Link to={"/parceiros"}>
+          <Link to={"/parceirosLogado"}>
             <div className="itemParceiro slide03Parceiro">
               <img
                 src={logoNavgard}
@@ -164,7 +151,7 @@ function Home() {
             </div>
           </Link>
 
-          <Link to={"/parceiros"}>
+          <Link to={"/parceirosLogado"}>
             <div className="itemParceiro slide04Parceiro">
               <img
                 src={logoSymbee}
@@ -175,9 +162,9 @@ function Home() {
         </div>
       </section>
 
-      <FooterPadrao />
+      <FooterPadraoLogado />
     </>
   );
 }
 
-export default Home;
+export default HomeLogado;

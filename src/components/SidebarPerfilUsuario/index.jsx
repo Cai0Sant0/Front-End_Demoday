@@ -27,7 +27,7 @@ function SidebarPerfilUsuario() {
           </Link>
         }
         {
-          <Link to={"/"}>
+          <Link to={"/logado"}>
             <abbr title="Voltar para home">
               <div className={estilo.btnSidebar}>
                 <img src={iconeBack} alt="" />

@@ -152,6 +152,7 @@
     .btnCarrosel01, .btnCarrosel02, .btnCarrosel03, .btnCarrosel04{
         width: 10em;
         margin-bottom: 0px;
+        margin-right: 0px;
     }
 
     .central {
@@ -161,9 +162,9 @@
     }
 }
 
-@media (max-width:400px){
+/* @media (max-width:400px){
     .btnCarrosel01, .btnCarrosel02, .btnCarrosel03, .btnCarrosel04{
         margin-right: 10px;
     }
-}
+} */
 

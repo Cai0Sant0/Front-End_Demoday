@@ -1,17 +1,17 @@
 import './style.css'
-import NavbarPadrao from '../../components/navbar'
-import FooterPadrao from '../../components/footer'
+import NavbarPadraoLogado from '../../components/navbarLogado'
+import FooterPadraoLogado from '../../components/footerLogado'
 import ImgOculos from '../../assets/images/imagemIA/imgOculosIa2.png'
 import { Link } from 'react-router-dom'
 import Topo from "../../components/ComponenteEscrolaPraCima"
 
-function IA(){
+function IALogado(){
     return(
         <>
 
         <Topo/>
 
-        <NavbarPadrao/>
+        <NavbarPadraoLogado usuLogado={true}/>
 
 
         <section className='primeiraSeccaoIA'>
@@ -48,15 +48,15 @@ function IA(){
             <div className="OculosEscolhaIa">
                 <img src={ImgOculos} alt="" className='FotoOculosIA'/>
                 {<Link to={"/filtro"} className='btnFiltroTelaIa' id='ia'>FILTRO</Link>}
-                {<Link to={"/testeIa"} className='btnIaTelaIa' id='filtro'>LENSFY IA</Link>}
+                {<Link to={"/TesteIaLogado"} className='btnIaTelaIa' id='filtro'>LENSFY IA</Link>}
             </div>
         </section>
 
         <div className='footerALinhadoIaTelaGrande'>
-            <FooterPadrao/>
+            <FooterPadraoLogado/>
         </div>
         </>
     )
 }
 
-export default IA
+export default IALogado

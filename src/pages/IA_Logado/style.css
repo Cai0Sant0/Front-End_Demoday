@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    padding: 0px;
+    border: none;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.primeiraSeccaoIA{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30em;
+    margin: 5em 0em 5em 0em;
+
+    font-family: 'Montserrat', sans-serif ;
+}
+
+.segundaSeccaoIA{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30em;
+    margin: 10em 0em 5em 0em;
+
+    font-family: 'Montserrat', sans-serif ;
+}
+
+.imgPrimeiraSeccaoIA{
+    display: flex;
+    flex-direction: column;
+    width: 78%;
+    height: 36em;
+    border-radius: 25px;
+    background-image: url(../../assets/images/imagemIA/imgPrimeiraSeccao.png);
+    background-size: cover;
+    background-position: top;
+    position: absolute;
+    gap: 2.5em;
+}
+
+.imgSegundaSeccaoIA{
+    display: flex;
+    flex-direction: column;
+    width: 78%;
+    height: 36em;
+    border-radius: 25px;
+    background-image: url(../../assets/images/imagemIA/imgSegundaSeccao.png);
+    background-size: cover;
+    background-position: top;
+    position: absolute;
+    gap: 2.5em;
+}
+
+.txtPrimeiraSeccaoIA{
+    width: 30em;
+    height: 2em;
+    margin-left: 7em;
+    margin-top: 3em;
+}
+
+.txtSegundaSeccaoIA{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.txtPrimeiraSeccaoIA01{
+    width: 310px;
+    height: 111px;
+    margin-left: 2em;
+}
+
+.txtSegundaSeccaoIA02{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 7em;
+    margin-right: 1.5em;
+}
+
+.Titulo02IA{
+    color: #360568;
+    font-size: 5em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-right: 1em;
+    margin-top: 0.5em;
+}
+
+
+.Titulo01IA{
+    color: rgb(0, 55, 71);
+    font-size: 5em;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
+}
+
+.Titulo02IA{
+    color: #360568;
+    font-size: 5em;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
+    margin-right: 1em;
+    margin-top: 0.5em;
+}
+
+.textoMenorIA1{
+    color: #006f91;
+    margin-top: 5em;
+    font-size: 22px;
+    width: 271px;
+    font-weight: 600;
+}
+
+.textoMenorIA2{
+    text-align: right;
+    width: 13em;
+    font-size: 22px;
+    font-weight: 600;
+    color: #550b4d;
+}
+
+.linkIaTelaIa{
+    display: block;
+    text-decoration: none;
+    width: 154px;
+    height: 28px;
+    background-color: #ffffff;
+    text-align: center;
+    color: #000000a6;
+    border-radius: 20px;
+    font-weight: 600;
+    padding: 3px;
+
+    margin-top: 2em;
+    width: 17.5em;
+}
+
+.linkFiltroTelaIA{
+    display: block;
+    text-decoration: none;
+    width: 154px;
+    height: 28px;
+    background-color: #ffffff;
+    text-align: center;
+    color: #000000a6;
+    border-radius: 20px;
+    font-weight: 600;
+    padding: 3px;
+
+    margin-top: 2em;
+    width: 17.5em;
+}
+
+.linkIaTelaIa:hover{
+    transform: translate(0px, -3px);
+    background-color: #003747 !important;
+    color: white !important;
+
+    transition: 0.5s ease-in-out;
+}
+
+.linkFiltroTelaIA:hover{
+    transform: translate(0px, -3px);
+    background-color: #550b4d !important;
+    color: white !important;
+
+    transition: 0.5s ease-in-out;
+}
+
+.tituloIA02{
+    margin: 1em 0em 0em 0em !important;
+}
+
+.ContainerIAeFiltro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40em;
+}
+
+.OculosEscolhaIa{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.FotoOculosIA{
+    width: 68em;
+    margin-top: 20em;
+    margin-bottom: 15em;
+    margin-left: 6em;
+}
+
+.btnFiltroTelaIa{
+    position: absolute;
+    margin-right: 19.5em;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 27px;
+    background-color: white;
+    border-radius: 56px;
+    padding: 3px;
+    font-weight: bolder;
+    width: 7.5em;
+    margin-top: 18px;
+    text-align: center;
+    color: #000000a6;
+    height: 1.5em;
+}
+
+.btnIaTelaIa{
+    position: absolute;
+    margin-left: 21.5em;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 27px;
+    background-color: white;
+    border-radius: 56px;
+    padding: 2px;
+    font-weight: bolder;
+    width: 7.5em;
+    margin-top: 18px;
+    text-align: center;
+    color: #000000a6;
+    height: 1.5em;
+}
+
+.btnFiltroTelaIa:hover, .btnIaTelaIa:hover{
+    transform: translate(0px, -3px);
+    color: #2FA5CA;
+
+    transition: 0.5s ease-in-out;
+}
+
+@media (max-width:1920px){
+    .footerALinhadoIaTelaGrande{
+        margin-top: 4em;
+    }
+}
+
+
+@media (max-width:1440px){
+    .imgPrimeiraSeccaoIA{
+        background-image: none;
+        background-color: #006f91;
+        width: 20em;
+    }
+
+    .imgSegundaSeccaoIA{
+        background-image: none;
+        background-color: #efa5e7 ;
+        width: 20em;
+    }
+
+    .txtPrimeiraSeccaoIA{
+        width: 18em;
+        height: 2em;
+        margin-left: 2em;
+        margin-top: 2em;
+    }
+
+    .txtSegundaSeccaoIA02{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+
+    .Titulo01IA{
+        font-size: 3em;
+        width: 6em;
+    }
+
+    .Titulo02IA{
+        font-size: 3em;
+        margin-right: 1em;
+    }
+
+    .linkIaTelaIa {
+        width: 16.5em;
+    }
+
+    .linkFiltroTelaIA{
+        width: 16.5em;
+        margin-left: 3em;
+    }
+
+    .textoMenorIA1{
+        color: white;
+    } 
+
+    .textoMenorIA2{
+        color: white;
+        text-align: left;
+        margin-left: 2em;
+        margin-right: -8px;
+    }
+
+}
+
+@media (max-width:1200px){
+    .FotoOculosIA{
+        width: 60em;
+    }
+
+    .btnFiltroTelaIa{
+        margin-right: 16.5em;
+        width: 6.5em;
+    }
+
+
+    .btnIaTelaIa{
+        width: 6.5em;
+        margin-left: 19.5em;
+    }
+}
+
+
+@media (max-width:1050px){
+    .FotoOculosIA{
+        width: 40em;
+    }
+
+    .btnFiltroTelaIa{
+        margin-right: 14.5em;
+        width: 5.5em;
+        margin-top: 2em;
+        font-size: 19px;
+
+    }
+
+    .btnIaTelaIa{
+        width: 8.5em;
+        margin-left: 25.5em;
+        margin-top: 3em;
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width:800px){
+    .FotoOculosIA{
+        width: 30em;
+    }
+
+
+    .btnFiltroTelaIa{
+        margin-right: 9.5em;
+        width: 4.5em;
+        margin-top: 3em;
+        font-size: 19px;
+
+    }
+
+    .btnIaTelaIa{
+        width: 6.5em;
+        margin-left: 22.5em;
+        margin-top: 4em;
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width:690px){
+    .FotoOculosIA{
+        width: 20em;
+    }
+
+
+    .btnFiltroTelaIa{
+        margin-right: 5.5em;
+        width: 4.4em;
+        margin-top: 4em;
+        font-size: 15px;
+
+    }
+
+    .btnIaTelaIa{
+        width: 4.8em;
+        margin-left: 17.3em;
+        margin-top: 4.5em;
+        font-size: 14px;
+    }
+
+    .ContainerIAeFiltro{
+        width: 85%;
+        height: 14em;
+    }
+
+    .btnFiltroTelaIa:hover, .btnIaTelaIa:hover{
+        color: black;
+    }
+}

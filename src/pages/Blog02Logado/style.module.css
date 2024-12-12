@@ -1,0 +1,159 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.controlDeImg{
+    display: flex;
+    justify-content: center;
+    margin: 2em 0em 1em 0em;
+}
+
+
+.chamadaPais{
+    margin: 15px;
+    padding: 30px;
+    color: #FFFF;
+    position: absolute;
+    background-color: #00000059;
+    border-radius: 40px;
+    width: 13em;
+    line-height: 47px;
+}
+
+.fotoCapaBlog{
+    height: 80%;
+    width: 80vw;
+    border-radius: 28px;
+}
+
+.divisaoSombra{
+    border: none;
+    border-top: 2px solid #000;
+    margin: 20px 0;
+}
+
+.seccaoBlog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+    width: 100%;
+    height: 20em;
+    margin: 2em 0em 2em 0em;
+}
+
+.seccaoBlogInvertido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 10%;
+    width: 100%;
+    height: 20em;
+    margin: 2em 0em 2em 0em;
+}
+
+.fotoBlog01{
+    width: 20em;
+    height: 100%;
+    border-radius: 50%;
+    background: url(../../assets/images/imagemBlog/imgBlog01.svg) no-repeat center;
+    background-size: contain;
+}
+
+.fotoBlog02{
+    width: 20em;
+    height: 100%;
+    border-radius: 50%;
+    background: url(../../assets/images/imagemBlog/imgblog02.svg) no-repeat center;
+    background-size: contain;
+}
+
+.fotoBlog03{
+    width: 20em;
+    height: 100%;
+    border-radius: 50%;
+    background: url(../../assets/images/imagemBlog/imgblog03.svg) no-repeat center;
+    background-size: contain;
+}
+
+.fotoBlog04{
+    width: 20em;
+    height: 100%;
+    border-radius: 50%;
+    background: url(../../assets/images/imagemBlog/imgblog04.svg) no-repeat center;
+    background-size: contain;
+}
+
+.fotoBlog05{
+    width: 20em;
+    height: 100%;
+    border-radius: 50%;
+    background: url(../../assets/images/imagemBlog/imgblog05.svg) no-repeat center;
+    background-size: contain;
+}
+
+.fotoBlog06{
+    width: 20em;
+    height: 100%;
+    border-radius: 50%;
+    background: url(../../assets/images/imagemBlog/imgblog06.svg) no-repeat center;
+    background-size: contain;
+}
+
+.conteudoBlog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    gap: 5px;
+    width: 44em;
+    height: 75%;
+    border-radius: 30px;
+    padding: 15px;
+    color: #fff;
+    line-height: 30px;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+.subTituloPrimeiroBlog{
+    margin-bottom: 30px;
+}
+
+.subTituloQuintoBlog{
+    margin-bottom: 26px;
+}
+
+.conteudoBlog p {
+    font-size: 20px;
+}
+
+@media (max-width:945px){
+    .seccaoBlog{
+        height: 30em;
+        gap: 3%;
+    }
+
+    .seccaoBlogInvertido{
+        height: 30em;
+        gap: 3%;
+    }
+
+    .conteudoBlog{
+        height: 64%;
+    }
+
+}
+
+@media (max-width:800px){
+    .chamadaPais{
+        width: 13em;
+        padding: 15px;
+    }
+
+    .fotoCapaBlog{
+        width: 90vw;
+    }
+}
+

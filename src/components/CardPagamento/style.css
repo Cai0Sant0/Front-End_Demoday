@@ -64,6 +64,10 @@
     gap: 4px;
 }
 
+.check-list-item::before{
+  content: "";
+}
+
 .aguardarCompra{
   text-align: center;
   background-color: #ffffff;
