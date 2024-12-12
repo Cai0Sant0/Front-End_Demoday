@@ -17,10 +17,10 @@ function IALogado(){
         <section className='primeiraSeccaoIA'>
             <div className="imgPrimeiraSeccaoIA">
                 <div className="txtPrimeiraSeccaoIA">
-                    <h1 className='Titulo01IA'>Lensify IA</h1>
+                    <h1 className='Titulo01IA'>Lensfy IA</h1>
                 </div>
                 <div className='txtPrimeiraSeccaoIA01'>
-                    <p className='textoMenorIA1'>Lensify IA é uma Inteligencia Artificial que através de fotos enviadas pelo usuário, identifica o arquétipo do rosto e recomenda as melhores armações de óculos.</p>
+                    <p className='textoMenorIA1'>Lensfy IA é uma Inteligencia Artificial que através de fotos enviadas pelo usuário, identifica o arquétipo do rosto e recomenda as melhores armações de óculos.</p>
                     <a href="#ia"  className='linkIaTelaIa' >Teste já</a>
                 </div>
             </div>

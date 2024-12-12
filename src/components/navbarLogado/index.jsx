@@ -20,7 +20,7 @@ function NavbarPadraoLogado(props) {
           <Nav className="me-auto botoesNavbar">
             <Nav.Link as={Link} to={"/sobreLogado"} className='btnNavbar'>Sobre Nós</Nav.Link>
             <Nav.Link as={Link} to={"/jogosLogado"} className='btnNavbar'>Jogos</Nav.Link>
-            <Nav.Link as={Link} to={"/iaLogado"} className='btnNavbar'>Lensify</Nav.Link>
+            <Nav.Link as={Link} to={"/iaLogado"} className='btnNavbar'>Lensfy</Nav.Link>
             <Nav.Link as={Link} to={"/blogLogado"} className='btnNavbar'>Blog</Nav.Link>
           </Nav>
           <Nav>

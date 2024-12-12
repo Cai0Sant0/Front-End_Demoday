@@ -20,7 +20,7 @@ function NavbarPadrao(props) {
           <Nav className="me-auto botoesNavbar">
             <Nav.Link as={Link} to={"/sobre"} className='btnNavbar'>Sobre Nós</Nav.Link>
             <Nav.Link as={Link} to={"/jogos"} className='btnNavbar'>Jogos</Nav.Link>
-            <Nav.Link as={Link} to={"/ia"} className='btnNavbar'>Lensify</Nav.Link>
+            <Nav.Link as={Link} to={"/ia"} className='btnNavbar'>Lensfy</Nav.Link>
             <Nav.Link as={Link} to={"/blog"} className='btnNavbar'>Blog</Nav.Link>
           </Nav>
           <Nav>
