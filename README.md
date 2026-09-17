@@ -61,21 +61,6 @@
   </ul>
 </details>
 
-<details>
-  <summary>Back-end</summary>
-  <ul>
-    <li><a href="https://www.w3schools.com/java/">Java</a></li>
-    <li><a href="https://docs.spring.io/spring-boot/index.html">Spring Boot</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.mysql.com/">MySQL</a></li>
-  </ul>
-</details>
-
 <!-- Features -->
 ### :dart: Recursos
 
