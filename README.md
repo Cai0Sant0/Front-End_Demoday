@@ -149,7 +149,7 @@ De start no servidor
 <!-- Usage -->
 ## :eyes: Observações
 
-Recomendado 8Gb de RAM e tmabém para acessar o projeto via web basta <a href="https://tevejo.com.br/" target="_blank">clicar aqui!</a>
+Para acessar o projeto via web basta <a href="front-end-demoday.vercel.app" target="_blank">clicar aqui!</a>
 
 <!-- Contributing -->
 ## :wave: Contribuidores
